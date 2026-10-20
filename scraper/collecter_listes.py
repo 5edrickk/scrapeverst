@@ -64,7 +64,7 @@ MOTIF_RABAIS = re.compile(r"\d+\s*%.*réduction|^-\s*\d+\s*%$", re.IGNORECASE)
 MOTIF_NB_AVIS = re.compile(r"^\(\s*\d[\d\s  ]*\)$")
 MOTIF_NB_COULEURS = re.compile(r"^\d+\s+couleurs?$", re.IGNORECASE)
 MOTIF_NOTE = re.compile(r"^\d(?:[.,]\d+)?$")
-MOTS_ANCIEN_PRIX = ("previous", "old", "strike", "crossed", "initial")
+MOTS_ANCIEN_PRIX = ("barred", "previous", "old", "strike", "crossed", "initial")
 TEXTES_ANCIEN_PRIX = ("précédent", "ancien", "initial", "avant", "barré")
 
 
@@ -167,7 +167,7 @@ def trouver_tuiles(soupe):
 
 def extraire_prix(tuile):
     actuel = ancien = ""
-    for montant in tuile.select(".vp-price-amount"):
+    for montant in tuile.select(".vp-price-amount, .vp-price-barred-amount"):
         classes = " ".join(montant.get("class") or []).lower()
         etiquette = (montant.select_one(".sr-only").get_text(" ", strip=True).lower()
                      if montant.select_one(".sr-only") else "")
@@ -215,7 +215,8 @@ def extraire_tuile(tuile, url_page):
             note = valeur
 
     etiquettes = []
-    for pastille in tuile.select(".vp-sticker, [class*=sticker], [class*=badge]"):
+    # Le même autocollant est répété pour chaque taille d'écran : on garde chaque texte une fois.
+    for pastille in tuile.select(".vp-sticker"):
         valeur = texte(pastille)
         if valeur and not MOTIF_RABAIS.search(valeur) and valeur not in etiquettes:
             etiquettes.append(valeur)
