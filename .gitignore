@@ -1,0 +1,12 @@
+# Environnement virtuel Python
+.venv/
+
+# Secrets (identifiants CouchDB)
+.env
+
+# Fichiers compilés Python
+__pycache__/
+*.pyc
+
+# Les CSV bruts doivent être commités : ne jamais les ignorer
+!data/raw/*.csv
