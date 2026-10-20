@@ -65,7 +65,7 @@ def requete_q1():
 def requete_q2():
     return {
         "selector": {"evaluation.nb_avis": {"$exists": True, "$type": "number"}},
-        "fields": ["_id", "nom", "marque", "categorie", "evaluation"],
+        "fields": ["_id", "nom", "marque", "categorie", "prix.actuel", "evaluation"],
         "sort": [{"evaluation.nb_avis": "desc"}],
         "use_index": ["idx-q2-avis", "nb-avis-desc"],
         "limit": Q2_LIMITE,
@@ -122,7 +122,7 @@ def main():
     corps = requete_q2()
     resultat = executer_mango(session, url_base, corps)
     for doc in resultat["docs"]:
-        print(f"  {doc['evaluation']['nb_avis']:>7} avis  {doc['evaluation']['note']}/5  {doc['marque']} – {doc['nom']}")
+        print(f"  {doc['evaluation']['nb_avis']:>7} avis  {doc['evaluation']['note']}/5  {doc['prix']['actuel']:>7.2f} $  {doc['marque']} – {doc['nom']}")
     print(f"  -> {sauvegarder('q2_plus_commentes.json', corps, resultat)}")
 
     print("\nQ3 : prix moyen par catégorie (MapReduce, _stats, group_level=1)")

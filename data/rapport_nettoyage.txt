@@ -23,7 +23,7 @@ Valeurs manquantes (null) par champ, sur les documents finaux :
   image_url               0  (0.0 %)
   date_extraction         0  (0.0 %)
 
-Modèles dont les variantes ont des prix différents (premier prix gardé) : 181 (465 variantes à un autre prix)
+Modèles dont les variantes ont des prix différents (premier prix gardé) : 181 (465 lignes à un autre prix)
   decathlon-343975 : gardé 6.0 $, vu aussi 10.0 $ (variante m8852308)
   decathlon-346464 : gardé 8.0 $, vu aussi 14.0 $ (variante m8977741)
   decathlon-353346 : gardé 12.0 $, vu aussi 20.0 $ (variante m8918010)

@@ -156,7 +156,7 @@ def ecrire_rapport(chemin, entree, nb_lignes, documents, ecarts_prix, ignorees, 
         pct = 100 * manquants[champ] / nb_docs if nb_docs else 0
         lignes.append(f"  {champ:<18} {manquants[champ]:>6}  ({pct:.1f} %)")
     lignes += ["", f"Modèles dont les variantes ont des prix différents (premier prix gardé) : "
-                   f"{len({e[0] for e in ecarts_prix})} ({len(ecarts_prix)} variantes à un autre prix)"]
+                   f"{len({e[0] for e in ecarts_prix})} ({len(ecarts_prix)} lignes à un autre prix)"]
     for _id, garde, autre, variante in ecarts_prix:
         lignes.append(f"  {_id} : gardé {garde} $, vu aussi {autre} $ (variante {variante})")
     lignes.append("")

@@ -10,3 +10,6 @@ __pycache__/
 
 # Les CSV bruts doivent être commités : ne jamais les ignorer
 !data/raw/*.csv
+
+# Archive de remise (générée par creer_zip.py)
+remise.zip

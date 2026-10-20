@@ -11,6 +11,7 @@
       "nom",
       "marque",
       "categorie",
+      "prix.actuel",
       "evaluation"
     ],
     "sort": [
@@ -31,6 +32,9 @@
         "nom": "Serviette de bain en microfibre taille G 80 cm x 130 cm",
         "marque": "NABAIJI",
         "categorie": "Vêtements de plage pour enfants",
+        "prix": {
+          "actuel": 11.99
+        },
         "evaluation": {
           "note": 4.8,
           "nb_avis": 27102
@@ -41,6 +45,9 @@
         "nom": "Chaussettes de course mi hautes x3 RUN100",
         "marque": "KIPRUN",
         "categorie": "Chaussettes de course en sentier hommes",
+        "prix": {
+          "actuel": 5.99
+        },
         "evaluation": {
           "note": 4.7,
           "nb_avis": 26961
@@ -51,6 +58,9 @@
         "nom": "T-shirt de course à pied respirant homme – Dry 100",
         "marque": "KALENJI",
         "categorie": "Hauts de course hommes",
+        "prix": {
+          "actuel": 8.99
+        },
         "evaluation": {
           "note": 4.7,
           "nb_avis": 25328
@@ -61,6 +71,9 @@
         "nom": "Sac à dos de randonnée 10 L, Arpenaz 50",
         "marque": "QUECHUA",
         "categorie": "Collections camping",
+        "prix": {
+          "actuel": 4.99
+        },
         "evaluation": {
           "note": 4.8,
           "nb_avis": 23889
@@ -71,6 +84,9 @@
         "nom": "Bas de tennis courts lot de 3 paires, RS 160, brun/beige",
         "marque": "DECATHLON",
         "categorie": "Accessoires de padel",
+        "prix": {
+          "actuel": 6.0
+        },
         "evaluation": {
           "note": 4.8,
           "nb_avis": 23186
@@ -81,6 +97,9 @@
         "nom": "Sac à dos de randonnée 10 L, Arpenaz 100",
         "marque": "QUECHUA",
         "categorie": "Collections camping",
+        "prix": {
+          "actuel": 9.99
+        },
         "evaluation": {
           "note": 4.8,
           "nb_avis": 21675
@@ -91,6 +110,9 @@
         "nom": "Chandail de randonnée en polaire homme, MH 100",
         "marque": "QUECHUA",
         "categorie": "Polaires de randonnée",
+        "prix": {
+          "actuel": 14.99
+        },
         "evaluation": {
           "note": 4.8,
           "nb_avis": 21363
@@ -101,6 +123,9 @@
         "nom": "Chaussettes de tennis mi-hautes x3 - Artengo RS 160 gris",
         "marque": "DECATHLON",
         "categorie": "Accessoires de padel",
+        "prix": {
+          "actuel": 7.99
+        },
         "evaluation": {
           "note": 4.8,
           "nb_avis": 19951
@@ -111,6 +136,9 @@
         "nom": "Chaussettes de tennis x3 - RS 160",
         "marque": "DECATHLON",
         "categorie": "Accessoires de padel",
+        "prix": {
+          "actuel": 7.99
+        },
         "evaluation": {
           "note": 4.8,
           "nb_avis": 18055
@@ -121,6 +149,9 @@
         "nom": "Chaussettes de tennis hautes x3 paires, RS 500",
         "marque": "DECATHLON",
         "categorie": "Accessoires de padel",
+        "prix": {
+          "actuel": 10.99
+        },
         "evaluation": {
           "note": 4.7,
           "nb_avis": 17847
