@@ -20,9 +20,23 @@ CODES_BLOCAGE = {403, 429}
 class BlocageServeur(Exception):
     """Le site refuse nos requêtes (403, 429 ou page anti-robot) : il faut arrêter."""
 
+    def __init__(self, message, code=None, retry_after=None):
+        super().__init__(message)
+        self.code = code
+        self.retry_after = retry_after
+
 
 class ErreurPage(Exception):
     """Une page n'a pas pu être récupérée ; on la journalise et on continue."""
+
+    def __init__(self, message, code=None, location=None):
+        super().__init__(message)
+        self.code = code
+        self.location = location
+
+
+def url_produit_autorisee(url):
+    return "?" not in url and "/api/" not in url
 
 
 def construire_user_agent():
@@ -39,20 +53,23 @@ def construire_user_agent():
 class ClientPoli:
     """Client HTTP : une requête à la fois, délai minimal entre deux requêtes."""
 
-    def __init__(self, delai=DELAI_SECONDES):
+    def __init__(self, delai=DELAI_SECONDES, url_autorisee=url_produit_autorisee):
         self.delai = delai
+        self.url_autorisee = url_autorisee
+        self.derniere_url = None
         self.session = requests.Session()
         self.session.headers["User-Agent"] = construire_user_agent()
         self._derniere_requete = 0.0
 
     def get(self, url):
-        if "?" in url or "/api/" in url:
-            raise ValueError(f"URL refusée (paramètres ou /api/) : {url}")
+        if not self.url_autorisee(url):
+            raise ValueError(f"URL refusée par les règles de politesse : {url}")
 
         attente = self.delai - (time.monotonic() - self._derniere_requete)
         if attente > 0:
             time.sleep(attente)
 
+        self.derniere_url = url
         try:
             # Pas de redirection automatique : chaque requête envoyée est contrôlée et espacée.
             reponse = self.session.get(url, timeout=TIMEOUT_SECONDES, allow_redirects=False)
@@ -63,12 +80,14 @@ class ClientPoli:
         finally:
             self._derniere_requete = time.monotonic()
 
-        if reponse.status_code in CODES_BLOCAGE:
-            raise BlocageServeur(f"HTTP {reponse.status_code} sur {url}")
-        if 300 <= reponse.status_code < 400:
-            raise ErreurPage(
-                f"redirection HTTP {reponse.status_code} vers {reponse.headers.get('Location', '?')}"
+        code = reponse.status_code
+        if code in CODES_BLOCAGE:
+            raise BlocageServeur(
+                f"HTTP {code} sur {url}", code=code, retry_after=reponse.headers.get("Retry-After")
             )
-        if reponse.status_code != 200:
-            raise ErreurPage(f"HTTP {reponse.status_code}")
+        if 300 <= code < 400:
+            location = reponse.headers.get("Location")
+            raise ErreurPage(f"redirection HTTP {code} vers {location or '?'}", code=code, location=location)
+        if code != 200:
+            raise ErreurPage(f"HTTP {code}", code=code)
         return reponse
