@@ -1,0 +1,10 @@
+{
+  "_id": "_design/stats",
+  "language": "javascript",
+  "views": {
+    "prix_par_categorie": {
+      "map": "function (doc) { if (doc.prix && typeof doc.prix.actuel === 'number' && Array.isArray(doc.categories)) { doc.categories.forEach(function (categorie) { emit([categorie], doc.prix.actuel); }); } }",
+      "reduce": "_stats"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "index": {
+    "fields": [{"evaluation.nb_avis": "desc"}]
+  },
+  "ddoc": "idx-q2-avis",
+  "name": "nb-avis-desc",
+  "type": "json"
+}

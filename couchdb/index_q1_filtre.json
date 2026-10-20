@@ -1,0 +1,8 @@
+{
+  "index": {
+    "fields": ["categorie", "prix.actuel", "evaluation.note"]
+  },
+  "ddoc": "idx-q1-filtre",
+  "name": "categorie-prix-note",
+  "type": "json"
+}
