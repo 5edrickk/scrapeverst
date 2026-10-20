@@ -1,0 +1,132 @@
+{
+  "requete": {
+    "selector": {
+      "evaluation.nb_avis": {
+        "$exists": true,
+        "$type": "number"
+      }
+    },
+    "fields": [
+      "_id",
+      "nom",
+      "marque",
+      "categorie",
+      "evaluation"
+    ],
+    "sort": [
+      {
+        "evaluation.nb_avis": "desc"
+      }
+    ],
+    "use_index": [
+      "idx-q2-avis",
+      "nb-avis-desc"
+    ],
+    "limit": 10
+  },
+  "resultat": {
+    "docs": [
+      {
+        "_id": "decathlon-158325",
+        "nom": "Serviette de bain en microfibre taille G 80 cm x 130 cm",
+        "marque": "NABAIJI",
+        "categorie": "Vêtements de plage pour enfants",
+        "evaluation": {
+          "note": 4.8,
+          "nb_avis": 27102
+        }
+      },
+      {
+        "_id": "decathlon-11690",
+        "nom": "Chaussettes de course mi hautes x3 RUN100",
+        "marque": "KIPRUN",
+        "categorie": "Chaussettes de course en sentier hommes",
+        "evaluation": {
+          "note": 4.7,
+          "nb_avis": 26961
+        }
+      },
+      {
+        "_id": "decathlon-165437",
+        "nom": "T-shirt de course à pied respirant homme – Dry 100",
+        "marque": "KALENJI",
+        "categorie": "Hauts de course hommes",
+        "evaluation": {
+          "note": 4.7,
+          "nb_avis": 25328
+        }
+      },
+      {
+        "_id": "decathlon-301684",
+        "nom": "Sac à dos de randonnée 10 L, Arpenaz 50",
+        "marque": "QUECHUA",
+        "categorie": "Collections camping",
+        "evaluation": {
+          "note": 4.8,
+          "nb_avis": 23889
+        }
+      },
+      {
+        "_id": "decathlon-304714",
+        "nom": "Bas de tennis courts lot de 3 paires, RS 160, brun/beige",
+        "marque": "DECATHLON",
+        "categorie": "Accessoires de padel",
+        "evaluation": {
+          "note": 4.8,
+          "nb_avis": 23186
+        }
+      },
+      {
+        "_id": "decathlon-344147",
+        "nom": "Sac à dos de randonnée 10 L, Arpenaz 100",
+        "marque": "QUECHUA",
+        "categorie": "Collections camping",
+        "evaluation": {
+          "note": 4.8,
+          "nb_avis": 21675
+        }
+      },
+      {
+        "_id": "decathlon-312360",
+        "nom": "Chandail de randonnée en polaire homme, MH 100",
+        "marque": "QUECHUA",
+        "categorie": "Polaires de randonnée",
+        "evaluation": {
+          "note": 4.8,
+          "nb_avis": 21363
+        }
+      },
+      {
+        "_id": "decathlon-300235",
+        "nom": "Chaussettes de tennis mi-hautes x3 - Artengo RS 160 gris",
+        "marque": "DECATHLON",
+        "categorie": "Accessoires de padel",
+        "evaluation": {
+          "note": 4.8,
+          "nb_avis": 19951
+        }
+      },
+      {
+        "_id": "decathlon-300234",
+        "nom": "Chaussettes de tennis x3 - RS 160",
+        "marque": "DECATHLON",
+        "categorie": "Accessoires de padel",
+        "evaluation": {
+          "note": 4.8,
+          "nb_avis": 18055
+        }
+      },
+      {
+        "_id": "decathlon-2451",
+        "nom": "Chaussettes de tennis hautes x3 paires, RS 500",
+        "marque": "DECATHLON",
+        "categorie": "Accessoires de padel",
+        "evaluation": {
+          "note": 4.7,
+          "nb_avis": 17847
+        }
+      }
+    ],
+    "bookmark": "g2wAAAACaAJkAA5zdGFydGtleV9kb2NpZG0AAAAOZGVjYXRobG9uLTI0NTFoAmQACHN0YXJ0a2V5bAAAAAFiAABFt2pq"
+  }
+}

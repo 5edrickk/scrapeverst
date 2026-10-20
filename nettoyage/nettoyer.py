@@ -104,11 +104,16 @@ def nettoyer(lignes):
     documents = {}
     variantes = {}
     ecarts_prix = []
-    sans_id = 0
+    ignorees = Counter()
     for ligne in lignes:
         id_modele = texte(ligne["id_modele"])
         if id_modele is None:
-            sans_id += 1
+            ignorees["sans id_modele"] += 1
+            continue
+        # Sans marque ni image : services d'atelier (« WORKSHOP… »), pas des produits.
+        # Les id_modele en X ne sont pas filtrés : certains sont de vrais produits.
+        if texte(ligne["marque_brut"]) is None and texte(ligne["image_url"]) is None:
+            ignorees["service (sans marque ni image)"] += 1
             continue
         nouveau = construire_document(ligne)
         doc = documents.get(id_modele)
@@ -124,10 +129,10 @@ def nettoyer(lignes):
         doc["nb_variantes_vues"] = len(variantes[id_modele])
         if nouveau["prix"]["actuel"] != doc["prix"]["actuel"]:
             ecarts_prix.append((doc["_id"], doc["prix"]["actuel"], nouveau["prix"]["actuel"], nouveau["id_variante"]))
-    return list(documents.values()), ecarts_prix, sans_id
+    return list(documents.values()), ecarts_prix, ignorees
 
 
-def ecrire_rapport(chemin, entree, nb_lignes, documents, ecarts_prix, sans_id, minimum):
+def ecrire_rapport(chemin, entree, nb_lignes, documents, ecarts_prix, ignorees, minimum):
     manquants = Counter()
     for doc in documents:
         for champ in CHAMPS_SUIVIS:
@@ -139,16 +144,19 @@ def ecrire_rapport(chemin, entree, nb_lignes, documents, ecarts_prix, sans_id, m
         f"Fichier d'entrée : {entree}",
         "",
         f"Lignes avant nettoyage         : {nb_lignes}",
-        f"Lignes sans id_modele ignorées : {sans_id}",
+        f"Lignes écartées                : {sum(ignorees.values())}",
+        f"  dont sans id_modele          : {ignorees['sans id_modele']}",
+        f"  dont services (sans marque ni image) : {ignorees['service (sans marque ni image)']}",
         f"Modèles distincts après        : {nb_docs}",
-        f"Doublons retirés               : {nb_lignes - sans_id - nb_docs}",
+        f"Doublons retirés               : {nb_lignes - sum(ignorees.values()) - nb_docs}",
         "",
         "Valeurs manquantes (null) par champ, sur les documents finaux :",
     ]
     for champ in CHAMPS_SUIVIS:
         pct = 100 * manquants[champ] / nb_docs if nb_docs else 0
         lignes.append(f"  {champ:<18} {manquants[champ]:>6}  ({pct:.1f} %)")
-    lignes += ["", f"Modèles dont les variantes ont des prix différents (premier prix gardé) : {len(ecarts_prix)}"]
+    lignes += ["", f"Modèles dont les variantes ont des prix différents (premier prix gardé) : "
+                   f"{len({e[0] for e in ecarts_prix})} ({len(ecarts_prix)} variantes à un autre prix)"]
     for _id, garde, autre, variante in ecarts_prix:
         lignes.append(f"  {_id} : gardé {garde} $, vu aussi {autre} $ (variante {variante})")
     lignes.append("")
@@ -171,13 +179,13 @@ def main():
 
     with open(args.entree, encoding="utf-8", newline="") as f:
         lignes = list(csv.DictReader(f))
-    documents, ecarts_prix, sans_id = nettoyer(lignes)
+    documents, ecarts_prix, ignorees = nettoyer(lignes)
 
     args.sortie.parent.mkdir(parents=True, exist_ok=True)
     with open(args.sortie, "w", encoding="utf-8") as f:
         json.dump(documents, f, ensure_ascii=False, indent=2)
         f.write("\n")
-    print(ecrire_rapport(args.rapport, args.entree, len(lignes), documents, ecarts_prix, sans_id, args.minimum))
+    print(ecrire_rapport(args.rapport, args.entree, len(lignes), documents, ecarts_prix, ignorees, args.minimum))
     print(f"\n-> {args.sortie}\n-> {args.rapport}")
     if len(documents) < args.minimum:
         sys.exit(1)

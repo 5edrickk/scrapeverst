@@ -1,0 +1,5160 @@
+{
+  "requete": {
+    "vue": "_design/stats/_view/prix_par_categorie",
+    "parametres": {
+      "group_level": 1
+    }
+  },
+  "resultat": {
+    "rows": [
+      {
+        "key": [
+          "Accessoires d'éducation physique"
+        ],
+        "value": {
+          "sum": 281.92,
+          "count": 10,
+          "min": 3.99,
+          "max": 64.99,
+          "sumsqr": 12745.1408,
+          "moyenne": 28.19
+        }
+      },
+      {
+        "key": [
+          "Accessoires d'hiver pour femmes"
+        ],
+        "value": {
+          "sum": 385.7400000000001,
+          "count": 31,
+          "min": 4.49,
+          "max": 34.99,
+          "sumsqr": 6304.862599999999,
+          "moyenne": 12.44
+        }
+      },
+      {
+        "key": [
+          "Accessoires d'hydratation"
+        ],
+        "value": {
+          "sum": 1229.65,
+          "count": 36,
+          "min": 5.99,
+          "max": 149.99,
+          "sumsqr": 78158.9035,
+          "moyenne": 34.16
+        }
+      },
+      {
+        "key": [
+          "Accessoires de canicross course à pied"
+        ],
+        "value": {
+          "sum": 74.98,
+          "count": 2,
+          "min": 34.99,
+          "max": 39.99,
+          "sumsqr": 2823.5002000000004,
+          "moyenne": 37.49
+        }
+      },
+      {
+        "key": [
+          "Accessoires de chaussures pour femmes"
+        ],
+        "value": {
+          "sum": 1165.7400000000002,
+          "count": 32,
+          "min": 4.99,
+          "max": 209.99,
+          "sumsqr": 95522.8826,
+          "moyenne": 36.43
+        }
+      },
+      {
+        "key": [
+          "Accessoires de kayak"
+        ],
+        "value": {
+          "sum": 286.92,
+          "count": 8,
+          "min": 9.99,
+          "max": 109.99,
+          "sumsqr": 17583.2608,
+          "moyenne": 35.87
+        }
+      },
+      {
+        "key": [
+          "Accessoires de padel"
+        ],
+        "value": {
+          "sum": 141.88,
+          "count": 15,
+          "min": 6,
+          "max": 16.99,
+          "sumsqr": 1471.5611999999999,
+          "moyenne": 9.46
+        }
+      },
+      {
+        "key": [
+          "Accessoires de pickleball"
+        ],
+        "value": {
+          "sum": 302.98,
+          "count": 4,
+          "min": 7.99,
+          "max": 190,
+          "sumsqr": 41787.940200000005,
+          "moyenne": 75.75
+        }
+      },
+      {
+        "key": [
+          "Accessoires de visibilité de vélo"
+        ],
+        "value": {
+          "sum": 51.959999999999994,
+          "count": 4,
+          "min": 5.99,
+          "max": 21.99,
+          "sumsqr": 814.9603999999999,
+          "moyenne": 12.99
+        }
+      },
+      {
+        "key": [
+          "Accessoires de yoga"
+        ],
+        "value": {
+          "sum": 796.7500000000002,
+          "count": 26,
+          "min": 6.99,
+          "max": 139.99,
+          "sumsqr": 47089.26250000001,
+          "moyenne": 30.64
+        }
+      },
+      {
+        "key": [
+          "Accessoires pour bébés"
+        ],
+        "value": {
+          "sum": 130.89999999999998,
+          "count": 11,
+          "min": 7,
+          "max": 19.99,
+          "sumsqr": 1714.521,
+          "moyenne": 11.9
+        }
+      },
+      {
+        "key": [
+          "Anneaux de pilates"
+        ],
+        "value": {
+          "sum": 99.97,
+          "count": 3,
+          "min": 24.99,
+          "max": 49.99,
+          "sumsqr": 3748.0003,
+          "moyenne": 33.32
+        }
+      },
+      {
+        "key": [
+          "Appareils pour abdominaux"
+        ],
+        "value": {
+          "sum": 103.95999999999998,
+          "count": 5,
+          "min": 11,
+          "max": 29.99,
+          "sumsqr": 2384.1403999999998,
+          "moyenne": 20.79
+        }
+      },
+      {
+        "key": [
+          "Balles de padel"
+        ],
+        "value": {
+          "sum": 18.48,
+          "count": 3,
+          "min": 4.5,
+          "max": 6.99,
+          "sumsqr": 117.9702,
+          "moyenne": 6.16
+        }
+      },
+      {
+        "key": [
+          "Ballet"
+        ],
+        "value": {
+          "sum": 343.87,
+          "count": 19,
+          "min": 2,
+          "max": 34.99,
+          "sumsqr": 7792.1613,
+          "moyenne": 18.1
+        }
+      },
+      {
+        "key": [
+          "Ballons d'exercice"
+        ],
+        "value": {
+          "sum": 90.94999999999999,
+          "count": 5,
+          "min": 5.99,
+          "max": 29.99,
+          "sumsqr": 2107.1804999999995,
+          "moyenne": 18.19
+        }
+      },
+      {
+        "key": [
+          "Ballons d’exercice de pilates"
+        ],
+        "value": {
+          "sum": 126.96,
+          "count": 4,
+          "min": 21.99,
+          "max": 49.99,
+          "sumsqr": 4506.4604,
+          "moyenne": 31.74
+        }
+      },
+      {
+        "key": [
+          "Ballons de basketball taille 6"
+        ],
+        "value": {
+          "sum": 55.980000000000004,
+          "count": 2,
+          "min": 15.99,
+          "max": 39.99,
+          "sumsqr": 1854.8802000000003,
+          "moyenne": 27.99
+        }
+      },
+      {
+        "key": [
+          "Ballons de basketballs enfants (tailles 3 et 4)"
+        ],
+        "value": {
+          "sum": 36.98,
+          "count": 2,
+          "min": 14.99,
+          "max": 21.99,
+          "sumsqr": 708.2601999999999,
+          "moyenne": 18.49
+        }
+      },
+      {
+        "key": [
+          "Ballons de plage"
+        ],
+        "value": {
+          "sum": 182.89999999999998,
+          "count": 10,
+          "min": 5.99,
+          "max": 49.99,
+          "sumsqr": 5379.341,
+          "moyenne": 18.29
+        }
+      },
+      {
+        "key": [
+          "Bandeaux de soccer"
+        ],
+        "value": {
+          "sum": 9,
+          "count": 1,
+          "min": 9,
+          "max": 9,
+          "sumsqr": 81,
+          "moyenne": 9.0
+        }
+      },
+      {
+        "key": [
+          "Bandes de repos"
+        ],
+        "value": {
+          "sum": 14.99,
+          "count": 1,
+          "min": 14.99,
+          "max": 14.99,
+          "sumsqr": 224.70010000000002,
+          "moyenne": 14.99
+        }
+      },
+      {
+        "key": [
+          "Bandes de résistance"
+        ],
+        "value": {
+          "sum": 653.6900000000002,
+          "count": 32,
+          "min": 2,
+          "max": 59.99,
+          "sumsqr": 19356.963099999997,
+          "moyenne": 20.43
+        }
+      },
+      {
+        "key": [
+          "Barres de dips et parallettes"
+        ],
+        "value": {
+          "sum": 94.99,
+          "count": 1,
+          "min": 94.99,
+          "max": 94.99,
+          "sumsqr": 9023.1001,
+          "moyenne": 94.99
+        }
+      },
+      {
+        "key": [
+          "Barres énergétiques"
+        ],
+        "value": {
+          "sum": 60.870000000000005,
+          "count": 17,
+          "min": 3.1,
+          "max": 4.1,
+          "sumsqr": 220.78830000000002,
+          "moyenne": 3.58
+        }
+      },
+      {
+        "key": [
+          "Bas de maillots de bain pour femmes"
+        ],
+        "value": {
+          "sum": 343.88,
+          "count": 26,
+          "min": 5,
+          "max": 29.99,
+          "sumsqr": 5689.7411999999995,
+          "moyenne": 13.23
+        }
+      },
+      {
+        "key": [
+          "Baseball & Balle molle"
+        ],
+        "value": {
+          "sum": 1233.6100000000001,
+          "count": 30,
+          "min": 3.49,
+          "max": 90,
+          "sumsqr": 69004.5749,
+          "moyenne": 41.12
+        }
+      },
+      {
+        "key": [
+          "Bâtons de course en sentier"
+        ],
+        "value": {
+          "sum": 134.98,
+          "count": 2,
+          "min": 24.99,
+          "max": 109.99,
+          "sumsqr": 12722.300199999998,
+          "moyenne": 67.49
+        }
+      },
+      {
+        "key": [
+          "Bâtons de ski"
+        ],
+        "value": {
+          "sum": 304.94,
+          "count": 7,
+          "min": 19.99,
+          "max": 74.99,
+          "sumsqr": 15769.300599999999,
+          "moyenne": 43.56
+        }
+      },
+      {
+        "key": [
+          "Bâtons de ski de randonnée"
+        ],
+        "value": {
+          "sum": 134.98,
+          "count": 2,
+          "min": 59.99,
+          "max": 74.99,
+          "sumsqr": 9222.3002,
+          "moyenne": 67.49
+        }
+      },
+      {
+        "key": [
+          "Bidons d'eau"
+        ],
+        "value": {
+          "sum": 21.99,
+          "count": 1,
+          "min": 21.99,
+          "max": 21.99,
+          "sumsqr": 483.5600999999999,
+          "moyenne": 21.99
+        }
+      },
+      {
+        "key": [
+          "Boissons d'électrolytes"
+        ],
+        "value": {
+          "sum": 208.67000000000002,
+          "count": 9,
+          "min": 4.75,
+          "max": 44.99,
+          "sumsqr": 7422.483300000001,
+          "moyenne": 23.19
+        }
+      },
+      {
+        "key": [
+          "Boîtiers de pédalier de vélo"
+        ],
+        "value": {
+          "sum": 137.95,
+          "count": 5,
+          "min": 14.99,
+          "max": 49.99,
+          "sumsqr": 4671.2405,
+          "moyenne": 27.59
+        }
+      },
+      {
+        "key": [
+          "Bottes de planche à neige"
+        ],
+        "value": {
+          "sum": 964.94,
+          "count": 6,
+          "min": 14.99,
+          "max": 229.99,
+          "sumsqr": 193505.7006,
+          "moyenne": 160.82
+        }
+      },
+      {
+        "key": [
+          "Bottes de planche à neige enfants"
+        ],
+        "value": {
+          "sum": 109.99,
+          "count": 1,
+          "min": 109.99,
+          "max": 109.99,
+          "sumsqr": 12097.800099999999,
+          "moyenne": 109.99
+        }
+      },
+      {
+        "key": [
+          "Bottes de planche à neige femmes"
+        ],
+        "value": {
+          "sum": 854.95,
+          "count": 5,
+          "min": 14.99,
+          "max": 229.99,
+          "sumsqr": 181407.90050000002,
+          "moyenne": 170.99
+        }
+      },
+      {
+        "key": [
+          "Bottes de ski"
+        ],
+        "value": {
+          "sum": 3319.9000000000005,
+          "count": 10,
+          "min": 109.99,
+          "max": 649.99,
+          "sumsqr": 1399533.601,
+          "moyenne": 331.99
+        }
+      },
+      {
+        "key": [
+          "Bottes pour enfants"
+        ],
+        "value": {
+          "sum": 396.91,
+          "count": 10,
+          "min": 19.99,
+          "max": 89.99,
+          "sumsqr": 20121.560899999997,
+          "moyenne": 39.69
+        }
+      },
+      {
+        "key": [
+          "Bottes pour femmes"
+        ],
+        "value": {
+          "sum": 1693.5899999999997,
+          "count": 21,
+          "min": 29.99,
+          "max": 129.99,
+          "sumsqr": 151487.5641,
+          "moyenne": 80.65
+        }
+      },
+      {
+        "key": [
+          "Bouées de piscine gonflables"
+        ],
+        "value": {
+          "sum": 84.95,
+          "count": 5,
+          "min": 7.99,
+          "max": 34.99,
+          "sumsqr": 1877.3005000000003,
+          "moyenne": 16.99
+        }
+      },
+      {
+        "key": [
+          "Bouteilles à mélanger"
+        ],
+        "value": {
+          "sum": 42.96,
+          "count": 4,
+          "min": 7.99,
+          "max": 14.99,
+          "sumsqr": 488.1404,
+          "moyenne": 10.74
+        }
+      },
+      {
+        "key": [
+          "Bouteilles d'eau"
+        ],
+        "value": {
+          "sum": 482.7100000000001,
+          "count": 30,
+          "min": 4.99,
+          "max": 34.99,
+          "sumsqr": 9761.502899999998,
+          "moyenne": 16.09
+        }
+      },
+      {
+        "key": [
+          "Bouteilles d'eau en plastique"
+        ],
+        "value": {
+          "sum": 63.94,
+          "count": 6,
+          "min": 4.99,
+          "max": 17.99,
+          "sumsqr": 806.7206,
+          "moyenne": 10.66
+        }
+      },
+      {
+        "key": [
+          "Boutiques de vélo"
+        ],
+        "value": {
+          "sum": 1688.6400000000003,
+          "count": 38,
+          "min": 4.99,
+          "max": 149.99,
+          "sumsqr": 136254.42360000004,
+          "moyenne": 44.44
+        }
+      },
+      {
+        "key": [
+          "Boxe pour enfants"
+        ],
+        "value": {
+          "sum": 361.9100000000001,
+          "count": 10,
+          "min": 4.99,
+          "max": 99.99,
+          "sumsqr": 20797.560899999997,
+          "moyenne": 36.19
+        }
+      },
+      {
+        "key": [
+          "Boxers de bain de natation garçons"
+        ],
+        "value": {
+          "sum": 17.99,
+          "count": 1,
+          "min": 17.99,
+          "max": 17.99,
+          "sumsqr": 323.64009999999996,
+          "moyenne": 17.99
+        }
+      },
+      {
+        "key": [
+          "Boxers de sport pour femmes"
+        ],
+        "value": {
+          "sum": 24.99,
+          "count": 1,
+          "min": 24.99,
+          "max": 24.99,
+          "sumsqr": 624.5001,
+          "moyenne": 24.99
+        }
+      },
+      {
+        "key": [
+          "Buts et ballons de soccer"
+        ],
+        "value": {
+          "sum": 994.69,
+          "count": 33,
+          "min": 3.99,
+          "max": 179.99,
+          "sumsqr": 67732.1631,
+          "moyenne": 30.14
+        }
+      },
+      {
+        "key": [
+          "Cache-cou de soccer"
+        ],
+        "value": {
+          "sum": 17.98,
+          "count": 2,
+          "min": 7.99,
+          "max": 9.99,
+          "sumsqr": 163.6402,
+          "moyenne": 8.99
+        }
+      },
+      {
+        "key": [
+          "Cache-cou et tuques de randonnée enfants"
+        ],
+        "value": {
+          "sum": 190.88,
+          "count": 15,
+          "min": 5,
+          "max": 24.99,
+          "sumsqr": 2823.7011999999995,
+          "moyenne": 12.73
+        }
+      },
+      {
+        "key": [
+          "Cadenas de vélo"
+        ],
+        "value": {
+          "sum": 516.86,
+          "count": 14,
+          "min": 6.99,
+          "max": 79.99,
+          "sumsqr": 25722.6614,
+          "moyenne": 36.92
+        }
+      },
+      {
+        "key": [
+          "Cadenas de vélo à câble"
+        ],
+        "value": {
+          "sum": 100.96000000000001,
+          "count": 4,
+          "min": 9.99,
+          "max": 54.99,
+          "sumsqr": 3770.9804000000004,
+          "moyenne": 25.24
+        }
+      },
+      {
+        "key": [
+          "Camisoles pour garçons"
+        ],
+        "value": {
+          "sum": 20,
+          "count": 2,
+          "min": 5,
+          "max": 15,
+          "sumsqr": 250,
+          "moyenne": 10.0
+        }
+      },
+      {
+        "key": [
+          "Canicross"
+        ],
+        "value": {
+          "sum": 39.99,
+          "count": 1,
+          "min": 39.99,
+          "max": 39.99,
+          "sumsqr": 1599.2001000000002,
+          "moyenne": 39.99
+        }
+      },
+      {
+        "key": [
+          "Canoë-camping"
+        ],
+        "value": {
+          "sum": 1395.6500000000003,
+          "count": 36,
+          "min": 5.99,
+          "max": 244.99,
+          "sumsqr": 128436.3635,
+          "moyenne": 38.77
+        }
+      },
+      {
+        "key": [
+          "Capteurs de course"
+        ],
+        "value": {
+          "sum": 99.98,
+          "count": 2,
+          "min": 39.99,
+          "max": 59.99,
+          "sumsqr": 5198.0002,
+          "moyenne": 49.99
+        }
+      },
+      {
+        "key": [
+          "Casques de bain bébés"
+        ],
+        "value": {
+          "sum": 3.99,
+          "count": 1,
+          "min": 3.99,
+          "max": 3.99,
+          "sumsqr": 15.920100000000001,
+          "moyenne": 3.99
+        }
+      },
+      {
+        "key": [
+          "Casques de planche à neige"
+        ],
+        "value": {
+          "sum": 1024.88,
+          "count": 12,
+          "min": 29.99,
+          "max": 199.99,
+          "sumsqr": 117004.5012,
+          "moyenne": 85.41
+        }
+      },
+      {
+        "key": [
+          "Casques de ski hommes"
+        ],
+        "value": {
+          "sum": 819.8900000000001,
+          "count": 11,
+          "min": 3.49,
+          "max": 199.99,
+          "sumsqr": 102560.1011,
+          "moyenne": 74.54
+        }
+      },
+      {
+        "key": [
+          "Casques en eau libre"
+        ],
+        "value": {
+          "sum": 29.99,
+          "count": 1,
+          "min": 29.99,
+          "max": 29.99,
+          "sumsqr": 899.4001,
+          "moyenne": 29.99
+        }
+      },
+      {
+        "key": [
+          "Casques et protections"
+        ],
+        "value": {
+          "sum": 170.92999999999998,
+          "count": 7,
+          "min": 15.99,
+          "max": 41.99,
+          "sumsqr": 4665.5807,
+          "moyenne": 24.42
+        }
+      },
+      {
+        "key": [
+          "Casquettes de course en sentier"
+        ],
+        "value": {
+          "sum": 118.94,
+          "count": 6,
+          "min": 11.99,
+          "max": 29.99,
+          "sumsqr": 2660.6206,
+          "moyenne": 19.82
+        }
+      },
+      {
+        "key": [
+          "Casquettes de vélo"
+        ],
+        "value": {
+          "sum": 57.959999999999994,
+          "count": 4,
+          "min": 7.99,
+          "max": 24.99,
+          "sumsqr": 1012.8404,
+          "moyenne": 14.49
+        }
+      },
+      {
+        "key": [
+          "Casquettes et bandeaux de sport filles"
+        ],
+        "value": {
+          "sum": 9.99,
+          "count": 2,
+          "min": 2.99,
+          "max": 7,
+          "sumsqr": 57.9401,
+          "moyenne": 5.0
+        }
+      },
+      {
+        "key": [
+          "Casquettes et chapeaux de surf"
+        ],
+        "value": {
+          "sum": 36.97,
+          "count": 3,
+          "min": 8.99,
+          "max": 14.99,
+          "sumsqr": 474.26030000000003,
+          "moyenne": 12.32
+        }
+      },
+      {
+        "key": [
+          "Casquettes pour femmes"
+        ],
+        "value": {
+          "sum": 208.89,
+          "count": 12,
+          "min": 9.99,
+          "max": 29.99,
+          "sumsqr": 4247.0211,
+          "moyenne": 17.41
+        }
+      },
+      {
+        "key": [
+          "Ceintures de course"
+        ],
+        "value": {
+          "sum": 129.94,
+          "count": 6,
+          "min": 12.99,
+          "max": 29.99,
+          "sumsqr": 3055.4006,
+          "moyenne": 21.66
+        }
+      },
+      {
+        "key": [
+          "Ceintures de course en sentier"
+        ],
+        "value": {
+          "sum": 129.94,
+          "count": 6,
+          "min": 12.99,
+          "max": 29.99,
+          "sumsqr": 3055.4006,
+          "moyenne": 21.66
+        }
+      },
+      {
+        "key": [
+          "Cerfs-volants de plage"
+        ],
+        "value": {
+          "sum": 246.93,
+          "count": 7,
+          "min": 11.99,
+          "max": 74.99,
+          "sumsqr": 11414.0607,
+          "moyenne": 35.28
+        }
+      },
+      {
+        "key": [
+          "Chaises de plage"
+        ],
+        "value": {
+          "sum": 19.99,
+          "count": 1,
+          "min": 19.99,
+          "max": 19.99,
+          "sumsqr": 399.60009999999994,
+          "moyenne": 19.99
+        }
+      },
+      {
+        "key": [
+          "Chandails à capuchon de course en sentier hommes"
+        ],
+        "value": {
+          "sum": 549.94,
+          "count": 8,
+          "min": 25,
+          "max": 139.99,
+          "sumsqr": 46941.100600000005,
+          "moyenne": 68.74
+        }
+      },
+      {
+        "key": [
+          "Chandails à manches longues de course en sentier hommes"
+        ],
+        "value": {
+          "sum": 257.94,
+          "count": 7,
+          "min": 17.99,
+          "max": 60,
+          "sumsqr": 11020.040600000002,
+          "moyenne": 36.85
+        }
+      },
+      {
+        "key": [
+          "Chandails à manches longues de course femmes"
+        ],
+        "value": {
+          "sum": 158.95,
+          "count": 5,
+          "min": 13.99,
+          "max": 49.99,
+          "sumsqr": 5917.820500000001,
+          "moyenne": 31.79
+        }
+      },
+      {
+        "key": [
+          "Chandails à manches longues de course hommes"
+        ],
+        "value": {
+          "sum": 257.94,
+          "count": 7,
+          "min": 17.99,
+          "max": 60,
+          "sumsqr": 11020.040600000002,
+          "moyenne": 36.85
+        }
+      },
+      {
+        "key": [
+          "Chandails à manches longues pour hommes"
+        ],
+        "value": {
+          "sum": 1207.79,
+          "count": 23,
+          "min": 14.99,
+          "max": 109.99,
+          "sumsqr": 83501.34210000001,
+          "moyenne": 52.51
+        }
+      },
+      {
+        "key": [
+          "Chandails d'entraînement femmes"
+        ],
+        "value": {
+          "sum": 244.94,
+          "count": 9,
+          "min": 14.99,
+          "max": 39.99,
+          "sumsqr": 7221.600600000001,
+          "moyenne": 27.22
+        }
+      },
+      {
+        "key": [
+          "Chandails de pilates hommes"
+        ],
+        "value": {
+          "sum": 46.989999999999995,
+          "count": 2,
+          "min": 17,
+          "max": 29.99,
+          "sumsqr": 1188.4000999999998,
+          "moyenne": 23.49
+        }
+      },
+      {
+        "key": [
+          "Chandails de randonnée hommes"
+        ],
+        "value": {
+          "sum": 74.97999999999999,
+          "count": 3,
+          "min": 19.99,
+          "max": 29.99,
+          "sumsqr": 1924.0001999999997,
+          "moyenne": 24.99
+        }
+      },
+      {
+        "key": [
+          "Chandails de sport filles"
+        ],
+        "value": {
+          "sum": 95.97,
+          "count": 5,
+          "min": 12,
+          "max": 29.99,
+          "sumsqr": 2014.6803,
+          "moyenne": 19.19
+        }
+      },
+      {
+        "key": [
+          "Chandails en coton ouaté avec capuchon pour enfants"
+        ],
+        "value": {
+          "sum": 47.98,
+          "count": 2,
+          "min": 17.99,
+          "max": 29.99,
+          "sumsqr": 1223.0402,
+          "moyenne": 23.99
+        }
+      },
+      {
+        "key": [
+          "Chandails en coton ouaté pour enfants"
+        ],
+        "value": {
+          "sum": 95.97,
+          "count": 5,
+          "min": 12,
+          "max": 29.99,
+          "sumsqr": 2014.6803,
+          "moyenne": 19.19
+        }
+      },
+      {
+        "key": [
+          "Chassures de soccer pour garçons"
+        ],
+        "value": {
+          "sum": 680.8800000000001,
+          "count": 23,
+          "min": 18.99,
+          "max": 64.99,
+          "sumsqr": 23405.3612,
+          "moyenne": 29.6
+        }
+      },
+      {
+        "key": [
+          "Chaudrons et poêles de camping"
+        ],
+        "value": {
+          "sum": 105.96,
+          "count": 4,
+          "min": 18.99,
+          "max": 34.99,
+          "sumsqr": 2943.8804,
+          "moyenne": 26.49
+        }
+      },
+      {
+        "key": [
+          "Chaussettes basses de course en sentier femmes"
+        ],
+        "value": {
+          "sum": 102.91999999999999,
+          "count": 8,
+          "min": 6.99,
+          "max": 24.99,
+          "sumsqr": 1540.9408,
+          "moyenne": 12.86
+        }
+      },
+      {
+        "key": [
+          "Chaussettes basses pour garçons"
+        ],
+        "value": {
+          "sum": 6.99,
+          "count": 1,
+          "min": 6.99,
+          "max": 6.99,
+          "sumsqr": 48.8601,
+          "moyenne": 6.99
+        }
+      },
+      {
+        "key": [
+          "Chaussettes chaudes pour enfants"
+        ],
+        "value": {
+          "sum": 131.92999999999998,
+          "count": 10,
+          "min": 6,
+          "max": 19.99,
+          "sumsqr": 1951.8606999999997,
+          "moyenne": 13.19
+        }
+      },
+      {
+        "key": [
+          "Chaussettes d'entraînement hommes"
+        ],
+        "value": {
+          "sum": 34.980000000000004,
+          "count": 4,
+          "min": 7,
+          "max": 11.99,
+          "sumsqr": 320.6002,
+          "moyenne": 8.75
+        }
+      },
+      {
+        "key": [
+          "Chaussettes de course en sentier hommes"
+        ],
+        "value": {
+          "sum": 201.84999999999997,
+          "count": 15,
+          "min": 5.99,
+          "max": 24.99,
+          "sumsqr": 3133.9615,
+          "moyenne": 13.46
+        }
+      },
+      {
+        "key": [
+          "Chaussettes de course femmes"
+        ],
+        "value": {
+          "sum": 201.84999999999997,
+          "count": 15,
+          "min": 5.99,
+          "max": 24.99,
+          "sumsqr": 3133.9615,
+          "moyenne": 13.46
+        }
+      },
+      {
+        "key": [
+          "Chaussettes de planche à neige"
+        ],
+        "value": {
+          "sum": 194.90999999999997,
+          "count": 13,
+          "min": 6,
+          "max": 24.99,
+          "sumsqr": 3372.0808999999995,
+          "moyenne": 14.99
+        }
+      },
+      {
+        "key": [
+          "Chaussettes de randonnée adultes"
+        ],
+        "value": {
+          "sum": 321.86,
+          "count": 14,
+          "min": 11.99,
+          "max": 37.99,
+          "sumsqr": 8437.5614,
+          "moyenne": 22.99
+        }
+      },
+      {
+        "key": [
+          "Chaussettes de ski femmes"
+        ],
+        "value": {
+          "sum": 79.96,
+          "count": 5,
+          "min": 9.99,
+          "max": 24.99,
+          "sumsqr": 1448.7004,
+          "moyenne": 15.99
+        }
+      },
+      {
+        "key": [
+          "Chaussettes de soccer enfants"
+        ],
+        "value": {
+          "sum": 37.96,
+          "count": 4,
+          "min": 7.99,
+          "max": 9.99,
+          "sumsqr": 363.2404,
+          "moyenne": 9.49
+        }
+      },
+      {
+        "key": [
+          "Chaussettes de vélo"
+        ],
+        "value": {
+          "sum": 75.96999999999998,
+          "count": 4,
+          "min": 10,
+          "max": 29.99,
+          "sumsqr": 1646.6803,
+          "moyenne": 18.99
+        }
+      },
+      {
+        "key": [
+          "Chaussettes et bas pour femmes"
+        ],
+        "value": {
+          "sum": 352.7900000000001,
+          "count": 25,
+          "min": 5.99,
+          "max": 37.99,
+          "sumsqr": 6484.642100000001,
+          "moyenne": 14.11
+        }
+      },
+      {
+        "key": [
+          "Chaussettes hautes pour garçons"
+        ],
+        "value": {
+          "sum": 97.9,
+          "count": 10,
+          "min": 6.99,
+          "max": 12.99,
+          "sumsqr": 994.0409999999999,
+          "moyenne": 9.79
+        }
+      },
+      {
+        "key": [
+          "Chaussettes mi-mollet pour femmes"
+        ],
+        "value": {
+          "sum": 408.81000000000006,
+          "count": 23,
+          "min": 7.99,
+          "max": 34.99,
+          "sumsqr": 8823.7419,
+          "moyenne": 17.77
+        }
+      },
+      {
+        "key": [
+          "Chaussures d'entraînement hommes"
+        ],
+        "value": {
+          "sum": 129.98,
+          "count": 2,
+          "min": 59.99,
+          "max": 69.99,
+          "sumsqr": 8497.4002,
+          "moyenne": 64.99
+        }
+      },
+      {
+        "key": [
+          "Chaussures de course en sentier hommes"
+        ],
+        "value": {
+          "sum": 1121.91,
+          "count": 11,
+          "min": 21.99,
+          "max": 139.99,
+          "sumsqr": 127715.8609,
+          "moyenne": 101.99
+        }
+      },
+      {
+        "key": [
+          "Chaussures de course femmes"
+        ],
+        "value": {
+          "sum": 1384.89,
+          "count": 14,
+          "min": 29.99,
+          "max": 169.99,
+          "sumsqr": 163352.90110000002,
+          "moyenne": 98.92
+        }
+      },
+      {
+        "key": [
+          "Chaussures de gym bébés"
+        ],
+        "value": {
+          "sum": 45.980000000000004,
+          "count": 3,
+          "min": 14.99,
+          "max": 16,
+          "sumsqr": 705.4002,
+          "moyenne": 15.33
+        }
+      },
+      {
+        "key": [
+          "Chaussures de gymnastique aquatique"
+        ],
+        "value": {
+          "sum": 14.99,
+          "count": 1,
+          "min": 14.99,
+          "max": 14.99,
+          "sumsqr": 224.70010000000002,
+          "moyenne": 14.99
+        }
+      },
+      {
+        "key": [
+          "Chaussures de padel enfants"
+        ],
+        "value": {
+          "sum": 104.98,
+          "count": 3,
+          "min": 25,
+          "max": 44.99,
+          "sumsqr": 3873.4002,
+          "moyenne": 34.99
+        }
+      },
+      {
+        "key": [
+          "Chaussures de padel femmes"
+        ],
+        "value": {
+          "sum": 169.97,
+          "count": 4,
+          "min": 29.99,
+          "max": 49.99,
+          "sumsqr": 7497.4003,
+          "moyenne": 42.49
+        }
+      },
+      {
+        "key": [
+          "Chaussures de pickleball"
+        ],
+        "value": {
+          "sum": 941.8700000000001,
+          "count": 17,
+          "min": 21.99,
+          "max": 139.99,
+          "sumsqr": 68418.4613,
+          "moyenne": 55.4
+        }
+      },
+      {
+        "key": [
+          "Chaussures de sport pour bébés"
+        ],
+        "value": {
+          "sum": 322.92,
+          "count": 10,
+          "min": 14,
+          "max": 59.99,
+          "sumsqr": 13445.140800000001,
+          "moyenne": 32.29
+        }
+      },
+      {
+        "key": [
+          "Chaussures de triathlon"
+        ],
+        "value": {
+          "sum": 599.96,
+          "count": 4,
+          "min": 79.99,
+          "max": 249.99,
+          "sumsqr": 105388.0004,
+          "moyenne": 149.99
+        }
+      },
+      {
+        "key": [
+          "Chaussures de vélo de gravelle"
+        ],
+        "value": {
+          "sum": 209.98000000000002,
+          "count": 2,
+          "min": 79.99,
+          "max": 129.99,
+          "sumsqr": 23295.8002,
+          "moyenne": 104.99
+        }
+      },
+      {
+        "key": [
+          "Chaussures de vélo de route"
+        ],
+        "value": {
+          "sum": 469.97,
+          "count": 3,
+          "min": 79.99,
+          "max": 249.99,
+          "sumsqr": 88490.6003,
+          "moyenne": 156.66
+        }
+      },
+      {
+        "key": [
+          "Chaussures et sur-chaussures de vélo"
+        ],
+        "value": {
+          "sum": 997.8500000000001,
+          "count": 15,
+          "min": 14.99,
+          "max": 249.99,
+          "sumsqr": 126094.04149999999,
+          "moyenne": 66.52
+        }
+      },
+      {
+        "key": [
+          "Chemises pour hommes"
+        ],
+        "value": {
+          "sum": 189.96,
+          "count": 4,
+          "min": 34.99,
+          "max": 59.99,
+          "sumsqr": 9346.200400000002,
+          "moyenne": 47.49
+        }
+      },
+      {
+        "key": [
+          "Cibles de soccer"
+        ],
+        "value": {
+          "sum": 85.94999999999999,
+          "count": 5,
+          "min": 4.99,
+          "max": 29.99,
+          "sumsqr": 1828.2804999999998,
+          "moyenne": 17.19
+        }
+      },
+      {
+        "key": [
+          "Cibles pour pointe en plastique"
+        ],
+        "value": {
+          "sum": 116.96000000000001,
+          "count": 4,
+          "min": 11.99,
+          "max": 49.99,
+          "sumsqr": 4266.660400000001,
+          "moyenne": 29.24
+        }
+      },
+      {
+        "key": [
+          "Cocheurs de golf"
+        ],
+        "value": {
+          "sum": 159.98,
+          "count": 2,
+          "min": 79.99,
+          "max": 79.99,
+          "sumsqr": 12796.800199999998,
+          "moyenne": 79.99
+        }
+      },
+      {
+        "key": [
+          "Collections camping"
+        ],
+        "value": {
+          "sum": 786.7000000000002,
+          "count": 33,
+          "min": 4.99,
+          "max": 59.99,
+          "sumsqr": 28934.363000000005,
+          "moyenne": 23.84
+        }
+      },
+      {
+        "key": [
+          "Collections course en sentier"
+        ],
+        "value": {
+          "sum": 938.6500000000002,
+          "count": 35,
+          "min": 5.99,
+          "max": 64.99,
+          "sumsqr": 35252.22349999999,
+          "moyenne": 26.82
+        }
+      },
+      {
+        "key": [
+          "Collections du moment pour hommes"
+        ],
+        "value": {
+          "sum": 812.77,
+          "count": 36,
+          "min": 4,
+          "max": 129.99,
+          "sumsqr": 45141.782300000006,
+          "moyenne": 22.58
+        }
+      },
+      {
+        "key": [
+          "Combinaisons isothermiques en eau libre"
+        ],
+        "value": {
+          "sum": 379.98,
+          "count": 2,
+          "min": 189.99,
+          "max": 189.99,
+          "sumsqr": 72192.4002,
+          "moyenne": 189.99
+        }
+      },
+      {
+        "key": [
+          "Combinaisons isothermiques pour filles"
+        ],
+        "value": {
+          "sum": 521.9399999999999,
+          "count": 7,
+          "min": 24.99,
+          "max": 199.99,
+          "sumsqr": 64194.36060000001,
+          "moyenne": 74.56
+        }
+      },
+      {
+        "key": [
+          "Combinaisons isothermiques pour garçons"
+        ],
+        "value": {
+          "sum": 556.9399999999999,
+          "count": 8,
+          "min": 24.99,
+          "max": 199.99,
+          "sumsqr": 65419.36060000001,
+          "moyenne": 69.62
+        }
+      },
+      {
+        "key": [
+          "Commencer la course en sentier"
+        ],
+        "value": {
+          "sum": 504.7500000000001,
+          "count": 28,
+          "min": 6.99,
+          "max": 49.99,
+          "sumsqr": 13017.8625,
+          "moyenne": 18.03
+        }
+      },
+      {
+        "key": [
+          "Compteurs et GPS de vélo"
+        ],
+        "value": {
+          "sum": 1503.92,
+          "count": 10,
+          "min": 3,
+          "max": 499,
+          "sumsqr": 543607.9608,
+          "moyenne": 150.39
+        }
+      },
+      {
+        "key": [
+          "Couches de base de vélo"
+        ],
+        "value": {
+          "sum": 235.93,
+          "count": 7,
+          "min": 24.99,
+          "max": 49.99,
+          "sumsqr": 8471.280700000001,
+          "moyenne": 33.7
+        }
+      },
+      {
+        "key": [
+          "Couches de base pour hommes"
+        ],
+        "value": {
+          "sum": 1161.67,
+          "count": 33,
+          "min": 9.99,
+          "max": 79.99,
+          "sumsqr": 53212.763300000006,
+          "moyenne": 35.2
+        }
+      },
+      {
+        "key": [
+          "Coupe-vents de course en sentier hommes"
+        ],
+        "value": {
+          "sum": 109.98,
+          "count": 3,
+          "min": 20,
+          "max": 59.99,
+          "sumsqr": 4898.2002,
+          "moyenne": 36.66
+        }
+      },
+      {
+        "key": [
+          "Coupe-vents de course femmes"
+        ],
+        "value": {
+          "sum": 659.91,
+          "count": 10,
+          "min": 24.99,
+          "max": 139.99,
+          "sumsqr": 56037.4009,
+          "moyenne": 65.99
+        }
+      },
+      {
+        "key": [
+          "Courir un demi-marathon"
+        ],
+        "value": {
+          "sum": 555.7900000000001,
+          "count": 25,
+          "min": 6.99,
+          "max": 54.99,
+          "sumsqr": 17042.202100000002,
+          "moyenne": 22.23
+        }
+      },
+      {
+        "key": [
+          "Course de sentier promotion"
+        ],
+        "value": {
+          "sum": 899.9300000000001,
+          "count": 8,
+          "min": 64.99,
+          "max": 149.99,
+          "sumsqr": 108433.5007,
+          "moyenne": 112.49
+        }
+      },
+      {
+        "key": [
+          "Couvertures pour cheval"
+        ],
+        "value": {
+          "sum": 79.99,
+          "count": 1,
+          "min": 79.99,
+          "max": 79.99,
+          "sumsqr": 6398.400099999999,
+          "moyenne": 79.99
+        }
+      },
+      {
+        "key": [
+          "Couvre-selles de vélo"
+        ],
+        "value": {
+          "sum": 73.94,
+          "count": 6,
+          "min": 6.99,
+          "max": 15.99,
+          "sumsqr": 1008.5206000000001,
+          "moyenne": 12.32
+        }
+      },
+      {
+        "key": [
+          "Crampons à neige pour femmes"
+        ],
+        "value": {
+          "sum": 895.8900000000001,
+          "count": 15,
+          "min": 10,
+          "max": 209.99,
+          "sumsqr": 89171.80110000001,
+          "moyenne": 59.73
+        }
+      },
+      {
+        "key": [
+          "Crèmes solaires résistantes à l’eau"
+        ],
+        "value": {
+          "sum": 33.98,
+          "count": 2,
+          "min": 16.99,
+          "max": 16.99,
+          "sumsqr": 577.3201999999999,
+          "moyenne": 16.99
+        }
+      },
+      {
+        "key": [
+          "Cuissards et shorts de vélo"
+        ],
+        "value": {
+          "sum": 1312.8500000000001,
+          "count": 20,
+          "min": 14.99,
+          "max": 159.99,
+          "sumsqr": 119967.70150000001,
+          "moyenne": 65.64
+        }
+      },
+      {
+        "key": [
+          "Culottes de course"
+        ],
+        "value": {
+          "sum": 25.979999999999997,
+          "count": 2,
+          "min": 6.99,
+          "max": 18.99,
+          "sumsqr": 409.4801999999999,
+          "moyenne": 12.99
+        }
+      },
+      {
+        "key": [
+          "Débuter la course à pied"
+        ],
+        "value": {
+          "sum": 475.76,
+          "count": 28,
+          "min": 6.99,
+          "max": 49.99,
+          "sumsqr": 11105.802399999999,
+          "moyenne": 16.99
+        }
+      },
+      {
+        "key": [
+          "Demi-pointes et collants de gymnastique rythmique"
+        ],
+        "value": {
+          "sum": 19.99,
+          "count": 1,
+          "min": 19.99,
+          "max": 19.99,
+          "sumsqr": 399.60009999999994,
+          "moyenne": 19.99
+        }
+      },
+      {
+        "key": [
+          "Draps de sac"
+        ],
+        "value": {
+          "sum": 107.97,
+          "count": 3,
+          "min": 17.99,
+          "max": 59.99,
+          "sumsqr": 4821.840300000001,
+          "moyenne": 35.99
+        }
+      },
+      {
+        "key": [
+          "Elliptiques"
+        ],
+        "value": {
+          "sum": 1479.98,
+          "count": 3,
+          "min": 280,
+          "max": 749.99,
+          "sumsqr": 843376.0002000001,
+          "moyenne": 493.33
+        }
+      },
+      {
+        "key": [
+          "Ensembles de golf enfants"
+        ],
+        "value": {
+          "sum": 1079.92,
+          "count": 8,
+          "min": 29.99,
+          "max": 189.99,
+          "sumsqr": 169578.4008,
+          "moyenne": 134.99
+        }
+      },
+      {
+        "key": [
+          "Ensembles de massage"
+        ],
+        "value": {
+          "sum": 119.97,
+          "count": 3,
+          "min": 29.99,
+          "max": 49.99,
+          "sumsqr": 4997.6003,
+          "moyenne": 39.99
+        }
+      },
+      {
+        "key": [
+          "Entretenir et réparer ses chaussures de randonnée"
+        ],
+        "value": {
+          "sum": 34.97,
+          "count": 5,
+          "min": 4.99,
+          "max": 9.99,
+          "sumsqr": 258.5603,
+          "moyenne": 6.99
+        }
+      },
+      {
+        "key": [
+          "Entretenir et réparer ses sacs à dos de randonnée"
+        ],
+        "value": {
+          "sum": 92.89,
+          "count": 12,
+          "min": 2.99,
+          "max": 11.99,
+          "sumsqr": 819.2810999999999,
+          "moyenne": 7.74
+        }
+      },
+      {
+        "key": [
+          "Entretien de lames de patins à glace"
+        ],
+        "value": {
+          "sum": 205.6,
+          "count": 21,
+          "min": 1.5,
+          "max": 25,
+          "sumsqr": 2577.56,
+          "moyenne": 9.79
+        }
+      },
+      {
+        "key": [
+          "Entretien et réparation de skis et de planches à neige"
+        ],
+        "value": {
+          "sum": 208,
+          "count": 6,
+          "min": 13,
+          "max": 60,
+          "sumsqr": 9094,
+          "moyenne": 34.67
+        }
+      },
+      {
+        "key": [
+          "Équipement compétition équitation"
+        ],
+        "value": {
+          "sum": 1053.8600000000001,
+          "count": 24,
+          "min": 7,
+          "max": 109.99,
+          "sumsqr": 63872.9014,
+          "moyenne": 43.91
+        }
+      },
+      {
+        "key": [
+          "Équipement de trail hiver"
+        ],
+        "value": {
+          "sum": 839.6800000000002,
+          "count": 32,
+          "min": 5.99,
+          "max": 64.99,
+          "sumsqr": 30923.203199999996,
+          "moyenne": 26.24
+        }
+      },
+      {
+        "key": [
+          "Équipements clubs et joueurs"
+        ],
+        "value": {
+          "sum": 151.93,
+          "count": 7,
+          "min": 8.99,
+          "max": 38.99,
+          "sumsqr": 3824.9606999999996,
+          "moyenne": 21.7
+        }
+      },
+      {
+        "key": [
+          "Équipements d'entraînement de soccer"
+        ],
+        "value": {
+          "sum": 197.86,
+          "count": 14,
+          "min": 3.99,
+          "max": 38.99,
+          "sumsqr": 4094.0414,
+          "moyenne": 14.13
+        }
+      },
+      {
+        "key": [
+          "Équipements de natation"
+        ],
+        "value": {
+          "sum": 1014.7400000000001,
+          "count": 28,
+          "min": 4.99,
+          "max": 499,
+          "sumsqr": 261157.18259999997,
+          "moyenne": 36.24
+        }
+      },
+      {
+        "key": [
+          "Équipements de plein air"
+        ],
+        "value": {
+          "sum": 1662.6100000000004,
+          "count": 39,
+          "min": 4.99,
+          "max": 244.99,
+          "sumsqr": 140681.7439,
+          "moyenne": 42.63
+        }
+      },
+      {
+        "key": [
+          "Équipements du cavalier"
+        ],
+        "value": {
+          "sum": 937.7700000000002,
+          "count": 33,
+          "min": 2.99,
+          "max": 74.99,
+          "sumsqr": 34944.1423,
+          "moyenne": 28.42
+        }
+      },
+      {
+        "key": [
+          "Équipements du cheval"
+        ],
+        "value": {
+          "sum": 665.82,
+          "count": 24,
+          "min": 6,
+          "max": 59.99,
+          "sumsqr": 24087.3018,
+          "moyenne": 27.74
+        }
+      },
+      {
+        "key": [
+          "Équipements du cycliste"
+        ],
+        "value": {
+          "sum": 1528.6800000000003,
+          "count": 37,
+          "min": 6.99,
+          "max": 149.99,
+          "sumsqr": 104995.22320000001,
+          "moyenne": 41.32
+        }
+      },
+      {
+        "key": [
+          "Espadrilles pour femmes"
+        ],
+        "value": {
+          "sum": 908.88,
+          "count": 15,
+          "min": 24,
+          "max": 94.99,
+          "sumsqr": 61834.80119999999,
+          "moyenne": 60.59
+        }
+      },
+      {
+        "key": [
+          "Espadrilles pour hommes"
+        ],
+        "value": {
+          "sum": 459.94999999999993,
+          "count": 8,
+          "min": 20,
+          "max": 94.99,
+          "sumsqr": 30892.900499999996,
+          "moyenne": 57.49
+        }
+      },
+      {
+        "key": [
+          "Étriers à tirage latéral de vélo"
+        ],
+        "value": {
+          "sum": 230.91,
+          "count": 9,
+          "min": 4.99,
+          "max": 44.99,
+          "sumsqr": 7770.3809,
+          "moyenne": 25.66
+        }
+      },
+      {
+        "key": [
+          "Eveil aquatique"
+        ],
+        "value": {
+          "sum": 361.81,
+          "count": 19,
+          "min": 4.99,
+          "max": 34.99,
+          "sumsqr": 8908.761900000001,
+          "moyenne": 19.04
+        }
+      },
+      {
+        "key": [
+          "Fartage de skis de fond"
+        ],
+        "value": {
+          "sum": 45,
+          "count": 1,
+          "min": 45,
+          "max": 45,
+          "sumsqr": 2025,
+          "moyenne": 45.0
+        }
+      },
+      {
+        "key": [
+          "Filets de pêche"
+        ],
+        "value": {
+          "sum": 173.96,
+          "count": 5,
+          "min": 4.99,
+          "max": 60,
+          "sumsqr": 8423.7204,
+          "moyenne": 34.79
+        }
+      },
+      {
+        "key": [
+          "Filets de tennis de table"
+        ],
+        "value": {
+          "sum": 88.94999999999999,
+          "count": 5,
+          "min": 9.99,
+          "max": 29.99,
+          "sumsqr": 1919.2205,
+          "moyenne": 17.79
+        }
+      },
+      {
+        "key": [
+          "Fléchettes en acier"
+        ],
+        "value": {
+          "sum": 115.96,
+          "count": 5,
+          "min": 8.99,
+          "max": 40,
+          "sumsqr": 3448.4804,
+          "moyenne": 23.19
+        }
+      },
+      {
+        "key": [
+          "Football américain"
+        ],
+        "value": {
+          "sum": 118.92999999999998,
+          "count": 7,
+          "min": 3.99,
+          "max": 27.99,
+          "sumsqr": 2442.6207,
+          "moyenne": 16.99
+        }
+      },
+      {
+        "key": [
+          "Foutas de plage"
+        ],
+        "value": {
+          "sum": 19.99,
+          "count": 1,
+          "min": 19.99,
+          "max": 19.99,
+          "sumsqr": 399.60009999999994,
+          "moyenne": 19.99
+        }
+      },
+      {
+        "key": [
+          "Gants de soccer"
+        ],
+        "value": {
+          "sum": 33.980000000000004,
+          "count": 3,
+          "min": 7,
+          "max": 14.99,
+          "sumsqr": 417.4602,
+          "moyenne": 11.33
+        }
+      },
+      {
+        "key": [
+          "Gants pour hommes"
+        ],
+        "value": {
+          "sum": 1070.6500000000003,
+          "count": 38,
+          "min": 7,
+          "max": 79.99,
+          "sumsqr": 40515.16350000001,
+          "moyenne": 28.18
+        }
+      },
+      {
+        "key": [
+          "Gels énergétiques"
+        ],
+        "value": {
+          "sum": 11.74,
+          "count": 3,
+          "min": 3.25,
+          "max": 4.5,
+          "sumsqr": 46.732600000000005,
+          "moyenne": 3.91
+        }
+      },
+      {
+        "key": [
+          "GPS de vélo"
+        ],
+        "value": {
+          "sum": 488.98,
+          "count": 2,
+          "min": 89.99,
+          "max": 398.99,
+          "sumsqr": 167291.22019999998,
+          "moyenne": 244.49
+        }
+      },
+      {
+        "key": [
+          "GPS, altimètres et boussoles"
+        ],
+        "value": {
+          "sum": 564.95,
+          "count": 6,
+          "min": 6.99,
+          "max": 499,
+          "sumsqr": 250011.6805,
+          "moyenne": 94.16
+        }
+      },
+      {
+        "key": [
+          "Gymnastique éducative et sportive"
+        ],
+        "value": {
+          "sum": 553.82,
+          "count": 33,
+          "min": 4,
+          "max": 64.99,
+          "sumsqr": 14766.641799999998,
+          "moyenne": 16.78
+        }
+      },
+      {
+        "key": [
+          "Habits de neige pour enfants"
+        ],
+        "value": {
+          "sum": 529.94,
+          "count": 6,
+          "min": 49.99,
+          "max": 159.99,
+          "sumsqr": 54839.4006,
+          "moyenne": 88.32
+        }
+      },
+      {
+        "key": [
+          "Habits de neige pour garçons"
+        ],
+        "value": {
+          "sum": 419.93000000000006,
+          "count": 7,
+          "min": 19.99,
+          "max": 159.99,
+          "sumsqr": 37791.6007,
+          "moyenne": 59.99
+        }
+      },
+      {
+        "key": [
+          "Haltères d'entraînement"
+        ],
+        "value": {
+          "sum": 1177.8300000000002,
+          "count": 19,
+          "min": 7.99,
+          "max": 209.99,
+          "sumsqr": 113694.04169999997,
+          "moyenne": 61.99
+        }
+      },
+      {
+        "key": [
+          "Hamacs"
+        ],
+        "value": {
+          "sum": 59.980000000000004,
+          "count": 2,
+          "min": 19.99,
+          "max": 39.99,
+          "sumsqr": 1998.8002000000001,
+          "moyenne": 29.99
+        }
+      },
+      {
+        "key": [
+          "Hameçons et émerillons"
+        ],
+        "value": {
+          "sum": 106.44,
+          "count": 18,
+          "min": 1,
+          "max": 34.99,
+          "sumsqr": 2029.1506,
+          "moyenne": 5.91
+        }
+      },
+      {
+        "key": [
+          "Haubans"
+        ],
+        "value": {
+          "sum": 17.98,
+          "count": 2,
+          "min": 7.99,
+          "max": 9.99,
+          "sumsqr": 163.6402,
+          "moyenne": 8.99
+        }
+      },
+      {
+        "key": [
+          "Hauts courts pour filles"
+        ],
+        "value": {
+          "sum": 28,
+          "count": 3,
+          "min": 8,
+          "max": 12,
+          "sumsqr": 272,
+          "moyenne": 9.33
+        }
+      },
+      {
+        "key": [
+          "Hauts de course en sentier hommes"
+        ],
+        "value": {
+          "sum": 448.88,
+          "count": 17,
+          "min": 8.99,
+          "max": 60,
+          "sumsqr": 15507.2012,
+          "moyenne": 26.4
+        }
+      },
+      {
+        "key": [
+          "Hauts de course femmes"
+        ],
+        "value": {
+          "sum": 326.90000000000003,
+          "count": 15,
+          "min": 8.99,
+          "max": 49.99,
+          "sumsqr": 9078.161,
+          "moyenne": 21.79
+        }
+      },
+      {
+        "key": [
+          "Hauts de course hommes"
+        ],
+        "value": {
+          "sum": 448.88,
+          "count": 17,
+          "min": 8.99,
+          "max": 60,
+          "sumsqr": 15507.2012,
+          "moyenne": 26.4
+        }
+      },
+      {
+        "key": [
+          "Housses et sacs"
+        ],
+        "value": {
+          "sum": 151.97,
+          "count": 4,
+          "min": 12,
+          "max": 64.99,
+          "sumsqr": 7791.2002999999995,
+          "moyenne": 37.99
+        }
+      },
+      {
+        "key": [
+          "Hydratation camping"
+        ],
+        "value": {
+          "sum": 443.06000000000006,
+          "count": 25,
+          "min": 4.3,
+          "max": 34.99,
+          "sumsqr": 9752.7124,
+          "moyenne": 17.72
+        }
+      },
+      {
+        "key": [
+          "Hydratation randonnée"
+        ],
+        "value": {
+          "sum": 535.0200000000001,
+          "count": 30,
+          "min": 4.3,
+          "max": 34.99,
+          "sumsqr": 11559.0328,
+          "moyenne": 17.83
+        }
+      },
+      {
+        "key": [
+          "Imperméabilisants pour chaussures pour femmes"
+        ],
+        "value": {
+          "sum": 9.99,
+          "count": 1,
+          "min": 9.99,
+          "max": 9.99,
+          "sumsqr": 99.8001,
+          "moyenne": 9.99
+        }
+      },
+      {
+        "key": [
+          "Imperméables pour enfants"
+        ],
+        "value": {
+          "sum": 542.88,
+          "count": 13,
+          "min": 11.99,
+          "max": 79.99,
+          "sumsqr": 27789.4212,
+          "moyenne": 41.76
+        }
+      },
+      {
+        "key": [
+          "Instruments de mesure"
+        ],
+        "value": {
+          "sum": 748.9200000000001,
+          "count": 8,
+          "min": 14.99,
+          "max": 398.99,
+          "sumsqr": 192436.0208,
+          "moyenne": 93.62
+        }
+      },
+      {
+        "key": [
+          "Jeux de motricité pour enfants"
+        ],
+        "value": {
+          "sum": 806.8700000000001,
+          "count": 15,
+          "min": 3.99,
+          "max": 144.99,
+          "sumsqr": 70459.6413,
+          "moyenne": 53.79
+        }
+      },
+      {
+        "key": [
+          "Jeux de palets et de quilles"
+        ],
+        "value": {
+          "sum": 384.93,
+          "count": 7,
+          "min": 19.99,
+          "max": 119.99,
+          "sumsqr": 29067.3007,
+          "moyenne": 54.99
+        }
+      },
+      {
+        "key": [
+          "Jeux de plage"
+        ],
+        "value": {
+          "sum": 781.72,
+          "count": 29,
+          "min": 4.99,
+          "max": 89.99,
+          "sumsqr": 36962.5428,
+          "moyenne": 26.96
+        }
+      },
+      {
+        "key": [
+          "Karaté"
+        ],
+        "value": {
+          "sum": 281.9,
+          "count": 12,
+          "min": 4.99,
+          "max": 89.99,
+          "sumsqr": 13017.700999999997,
+          "moyenne": 23.49
+        }
+      },
+      {
+        "key": [
+          "Lampes de poche"
+        ],
+        "value": {
+          "sum": 68.96,
+          "count": 4,
+          "min": 5.99,
+          "max": 24.99,
+          "sumsqr": 1453.6203999999998,
+          "moyenne": 17.24
+        }
+      },
+      {
+        "key": [
+          "Lampes frontales de camping"
+        ],
+        "value": {
+          "sum": 240.92,
+          "count": 9,
+          "min": 5.99,
+          "max": 59.99,
+          "sumsqr": 9726.3008,
+          "moyenne": 26.77
+        }
+      },
+      {
+        "key": [
+          "Lampes rechargeables"
+        ],
+        "value": {
+          "sum": 231.96,
+          "count": 6,
+          "min": 21.99,
+          "max": 59.99,
+          "sumsqr": 9931.0604,
+          "moyenne": 38.66
+        }
+      },
+      {
+        "key": [
+          "Leggings chauds pour hommes"
+        ],
+        "value": {
+          "sum": 354.93,
+          "count": 7,
+          "min": 29.99,
+          "max": 64.99,
+          "sumsqr": 18967.9007,
+          "moyenne": 50.7
+        }
+      },
+      {
+        "key": [
+          "Leggings de gym pour femmes"
+        ],
+        "value": {
+          "sum": 734.8400000000001,
+          "count": 27,
+          "min": 10,
+          "max": 64.99,
+          "sumsqr": 26829.601599999998,
+          "moyenne": 27.22
+        }
+      },
+      {
+        "key": [
+          "Leggings pour enfants"
+        ],
+        "value": {
+          "sum": 316.9,
+          "count": 18,
+          "min": 7.99,
+          "max": 34.99,
+          "sumsqr": 6667.161,
+          "moyenne": 17.61
+        }
+      },
+      {
+        "key": [
+          "Leggings pour filles"
+        ],
+        "value": {
+          "sum": 370.88,
+          "count": 23,
+          "min": 7.99,
+          "max": 34.99,
+          "sumsqr": 7218.6012,
+          "moyenne": 16.13
+        }
+      },
+      {
+        "key": [
+          "Leggings sans couture pour femmes"
+        ],
+        "value": {
+          "sum": 55,
+          "count": 3,
+          "min": 15,
+          "max": 20,
+          "sumsqr": 1025,
+          "moyenne": 18.33
+        }
+      },
+      {
+        "key": [
+          "Liquidation course à pied"
+        ],
+        "value": {
+          "sum": 1065.92,
+          "count": 35,
+          "min": 3,
+          "max": 120,
+          "sumsqr": 55037.1208,
+          "moyenne": 30.45
+        }
+      },
+      {
+        "key": [
+          "Liquidation golf"
+        ],
+        "value": {
+          "sum": 971.97,
+          "count": 24,
+          "min": 6,
+          "max": 260,
+          "sumsqr": 107677.7003,
+          "moyenne": 40.5
+        }
+      },
+      {
+        "key": [
+          "Liquidation soccer"
+        ],
+        "value": {
+          "sum": 672,
+          "count": 29,
+          "min": 5,
+          "max": 60,
+          "sumsqr": 19514,
+          "moyenne": 23.17
+        }
+      },
+      {
+        "key": [
+          "Lumières arrière de vélo"
+        ],
+        "value": {
+          "sum": 381.88,
+          "count": 12,
+          "min": 6.99,
+          "max": 74.99,
+          "sumsqr": 15816.3612,
+          "moyenne": 31.82
+        }
+      },
+      {
+        "key": [
+          "Lunettes de course"
+        ],
+        "value": {
+          "sum": 774.9300000000001,
+          "count": 8,
+          "min": 24.99,
+          "max": 149.99,
+          "sumsqr": 90161.0007,
+          "moyenne": 96.87
+        }
+      },
+      {
+        "key": [
+          "Lunettes de natation enfants"
+        ],
+        "value": {
+          "sum": 132.93,
+          "count": 7,
+          "min": 4.99,
+          "max": 34.99,
+          "sumsqr": 3442.3406999999997,
+          "moyenne": 18.99
+        }
+      },
+      {
+        "key": [
+          "Lunettes de planche à neige"
+        ],
+        "value": {
+          "sum": 784.82,
+          "count": 20,
+          "min": 3.49,
+          "max": 79.99,
+          "sumsqr": 43686.90179999999,
+          "moyenne": 39.24
+        }
+      },
+      {
+        "key": [
+          "Lunettes de ski"
+        ],
+        "value": {
+          "sum": 669.86,
+          "count": 16,
+          "min": 3.49,
+          "max": 79.99,
+          "sumsqr": 39664.501399999994,
+          "moyenne": 41.87
+        }
+      },
+      {
+        "key": [
+          "Lunettes de soleil catégorie 1"
+        ],
+        "value": {
+          "sum": 9.99,
+          "count": 1,
+          "min": 9.99,
+          "max": 9.99,
+          "sumsqr": 99.8001,
+          "moyenne": 9.99
+        }
+      },
+      {
+        "key": [
+          "Lunettes de soleil catégorie 3 pour Femmes"
+        ],
+        "value": {
+          "sum": 659.8700000000001,
+          "count": 17,
+          "min": 9.99,
+          "max": 119.99,
+          "sumsqr": 36540.1013,
+          "moyenne": 38.82
+        }
+      },
+      {
+        "key": [
+          "Lunettes de soleil catégorie 4"
+        ],
+        "value": {
+          "sum": 254.98000000000002,
+          "count": 7,
+          "min": 8,
+          "max": 89.99,
+          "sumsqr": 14998.000199999999,
+          "moyenne": 36.43
+        }
+      },
+      {
+        "key": [
+          "Lunettes de soleil de vitesse"
+        ],
+        "value": {
+          "sum": 1107.8500000000001,
+          "count": 17,
+          "min": 8,
+          "max": 149.99,
+          "sumsqr": 109943.50149999998,
+          "moyenne": 65.17
+        }
+      },
+      {
+        "key": [
+          "Lunettes de soleil de voile"
+        ],
+        "value": {
+          "sum": 168.98000000000002,
+          "count": 4,
+          "min": 8.99,
+          "max": 75,
+          "sumsqr": 9629.720200000002,
+          "moyenne": 42.25
+        }
+      },
+      {
+        "key": [
+          "Lunettes de soleil par catégories pour femmes"
+        ],
+        "value": {
+          "sum": 729.85,
+          "count": 19,
+          "min": 9.99,
+          "max": 119.99,
+          "sumsqr": 40238.7015,
+          "moyenne": 38.41
+        }
+      },
+      {
+        "key": [
+          "Lunettes de soleil par catégories pour hommes"
+        ],
+        "value": {
+          "sum": 729.85,
+          "count": 19,
+          "min": 9.99,
+          "max": 119.99,
+          "sumsqr": 40238.7015,
+          "moyenne": 38.41
+        }
+      },
+      {
+        "key": [
+          "Maillots de bain 2 pièces pour femmes"
+        ],
+        "value": {
+          "sum": 409.9100000000001,
+          "count": 31,
+          "min": 4,
+          "max": 25,
+          "sumsqr": 6571.000899999999,
+          "moyenne": 13.22
+        }
+      },
+      {
+        "key": [
+          "Maillots de bain de grossesse"
+        ],
+        "value": {
+          "sum": 54.98,
+          "count": 2,
+          "min": 24.99,
+          "max": 29.99,
+          "sumsqr": 1523.9002,
+          "moyenne": 27.49
+        }
+      },
+      {
+        "key": [
+          "Maillots de bain de surf"
+        ],
+        "value": {
+          "sum": 438.89,
+          "count": 30,
+          "min": 4,
+          "max": 39.99,
+          "sumsqr": 8856.541099999999,
+          "moyenne": 14.63
+        }
+      },
+      {
+        "key": [
+          "Maillots de bain de surf filles"
+        ],
+        "value": {
+          "sum": 177.93,
+          "count": 13,
+          "min": 4,
+          "max": 25.99,
+          "sumsqr": 3069.3007,
+          "moyenne": 13.69
+        }
+      },
+      {
+        "key": [
+          "Maillots de bain pour garçons"
+        ],
+        "value": {
+          "sum": 279.85,
+          "count": 20,
+          "min": 4,
+          "max": 24.99,
+          "sumsqr": 4725.2215,
+          "moyenne": 13.99
+        }
+      },
+      {
+        "key": [
+          "Maillots de bain pour hommes"
+        ],
+        "value": {
+          "sum": 446.90000000000003,
+          "count": 24,
+          "min": 5,
+          "max": 54.99,
+          "sumsqr": 11660.161,
+          "moyenne": 18.62
+        }
+      },
+      {
+        "key": [
+          "Maillots de soccer adultes"
+        ],
+        "value": {
+          "sum": 147.97,
+          "count": 8,
+          "min": 9.99,
+          "max": 30,
+          "sumsqr": 3147.1603,
+          "moyenne": 18.5
+        }
+      },
+      {
+        "key": [
+          "Maillots de soccer enfants"
+        ],
+        "value": {
+          "sum": 46.970000000000006,
+          "count": 4,
+          "min": 8.99,
+          "max": 14.99,
+          "sumsqr": 574.2603,
+          "moyenne": 11.74
+        }
+      },
+      {
+        "key": [
+          "Maillots de sport pour garçons"
+        ],
+        "value": {
+          "sum": 82.95,
+          "count": 7,
+          "min": 8.99,
+          "max": 14.99,
+          "sumsqr": 1005.7805,
+          "moyenne": 11.85
+        }
+      },
+      {
+        "key": [
+          "Maillots dermoprotecteurs pour garçons"
+        ],
+        "value": {
+          "sum": 86.94999999999999,
+          "count": 6,
+          "min": 4,
+          "max": 19.99,
+          "sumsqr": 1439.3404999999998,
+          "moyenne": 14.49
+        }
+      },
+      {
+        "key": [
+          "Maillots dermoprotecteurs pour hommes"
+        ],
+        "value": {
+          "sum": 153.95,
+          "count": 9,
+          "min": 6,
+          "max": 24.99,
+          "sumsqr": 2888.0405,
+          "moyenne": 17.11
+        }
+      },
+      {
+        "key": [
+          "Maillots pour femmes"
+        ],
+        "value": {
+          "sum": 1027.8899999999999,
+          "count": 21,
+          "min": 9.99,
+          "max": 109.99,
+          "sumsqr": 76101.1811,
+          "moyenne": 48.95
+        }
+      },
+      {
+        "key": [
+          "Manteaux 3-en-1 pour femmes"
+        ],
+        "value": {
+          "sum": 159.99,
+          "count": 1,
+          "min": 159.99,
+          "max": 159.99,
+          "sumsqr": 25596.800100000004,
+          "moyenne": 159.99
+        }
+      },
+      {
+        "key": [
+          "Manteaux 3-en-1 pour garçons"
+        ],
+        "value": {
+          "sum": 50,
+          "count": 1,
+          "min": 50,
+          "max": 50,
+          "sumsqr": 2500,
+          "moyenne": 50.0
+        }
+      },
+      {
+        "key": [
+          "Manteaux d'hiver pour garçons"
+        ],
+        "value": {
+          "sum": 1218.9,
+          "count": 14,
+          "min": 40,
+          "max": 189.99,
+          "sumsqr": 124901.00099999999,
+          "moyenne": 87.06
+        }
+      },
+      {
+        "key": [
+          "Manteaux d'hiver pour hommes"
+        ],
+        "value": {
+          "sum": 3344.76,
+          "count": 29,
+          "min": 34.99,
+          "max": 239.99,
+          "sumsqr": 475667.30240000004,
+          "moyenne": 115.34
+        }
+      },
+      {
+        "key": [
+          "Manteaux de planche à neige hommes"
+        ],
+        "value": {
+          "sum": 594.97,
+          "count": 5,
+          "min": 65,
+          "max": 159.99,
+          "sumsqr": 75916.6003,
+          "moyenne": 118.99
+        }
+      },
+      {
+        "key": [
+          "Manteaux en duvet de randonnée"
+        ],
+        "value": {
+          "sum": 2375.75,
+          "count": 28,
+          "min": 29.99,
+          "max": 239.99,
+          "sumsqr": 276281.7825,
+          "moyenne": 84.85
+        }
+      },
+      {
+        "key": [
+          "Manteaux imperméables de course en sentier hommes"
+        ],
+        "value": {
+          "sum": 54.99,
+          "count": 1,
+          "min": 54.99,
+          "max": 54.99,
+          "sumsqr": 3023.9001000000003,
+          "moyenne": 54.99
+        }
+      },
+      {
+        "key": [
+          "Manteaux imperméables pour garçons"
+        ],
+        "value": {
+          "sum": 517.9,
+          "count": 12,
+          "min": 11.99,
+          "max": 99.99,
+          "sumsqr": 29065.921000000002,
+          "moyenne": 43.16
+        }
+      },
+      {
+        "key": [
+          "Manteaux matelassés pour enfants"
+        ],
+        "value": {
+          "sum": 334.92,
+          "count": 8,
+          "min": 24.99,
+          "max": 64.99,
+          "sumsqr": 15068.300799999999,
+          "moyenne": 41.87
+        }
+      },
+      {
+        "key": [
+          "Manteaux pour chien"
+        ],
+        "value": {
+          "sum": 88.97,
+          "count": 3,
+          "min": 14.99,
+          "max": 43.99,
+          "sumsqr": 3059.2203,
+          "moyenne": 29.66
+        }
+      },
+      {
+        "key": [
+          "Masques Easybreath enfants (6-10 ans)"
+        ],
+        "value": {
+          "sum": 34.99,
+          "count": 1,
+          "min": 34.99,
+          "max": 34.99,
+          "sumsqr": 1224.3001000000002,
+          "moyenne": 34.99
+        }
+      },
+      {
+        "key": [
+          "Masques, palmes et tubas"
+        ],
+        "value": {
+          "sum": 580.82,
+          "count": 21,
+          "min": 5,
+          "max": 54.99,
+          "sumsqr": 19751.381800000003,
+          "moyenne": 27.66
+        }
+      },
+      {
+        "key": [
+          "Matelas de camping"
+        ],
+        "value": {
+          "sum": 2201.7300000000005,
+          "count": 27,
+          "min": 7.99,
+          "max": 249.99,
+          "sumsqr": 301199.96270000003,
+          "moyenne": 81.55
+        }
+      },
+      {
+        "key": [
+          "Mini-masseurs"
+        ],
+        "value": {
+          "sum": 47.96,
+          "count": 4,
+          "min": 7.99,
+          "max": 14.99,
+          "sumsqr": 613.0404000000001,
+          "moyenne": 11.99
+        }
+      },
+      {
+        "key": [
+          "Mitainespour enfants"
+        ],
+        "value": {
+          "sum": 179.92,
+          "count": 8,
+          "min": 7.99,
+          "max": 39.99,
+          "sumsqr": 4982.4008,
+          "moyenne": 22.49
+        }
+      },
+      {
+        "key": [
+          "Mobilier de camping"
+        ],
+        "value": {
+          "sum": 1401.7400000000002,
+          "count": 27,
+          "min": 7.99,
+          "max": 149.99,
+          "sumsqr": 110986.3626,
+          "moyenne": 51.92
+        }
+      },
+      {
+        "key": [
+          "Montres de course"
+        ],
+        "value": {
+          "sum": 1172.92,
+          "count": 10,
+          "min": 14.99,
+          "max": 499,
+          "sumsqr": 389763.8208,
+          "moyenne": 117.29
+        }
+      },
+      {
+        "key": [
+          "Montres pour femmes"
+        ],
+        "value": {
+          "sum": 229.95000000000002,
+          "count": 6,
+          "min": 14.99,
+          "max": 99.99,
+          "sumsqr": 13945.8005,
+          "moyenne": 38.33
+        }
+      },
+      {
+        "key": [
+          "Montres pour hommes"
+        ],
+        "value": {
+          "sum": 259.94000000000005,
+          "count": 8,
+          "min": 14.99,
+          "max": 99.99,
+          "sumsqr": 14395.5006,
+          "moyenne": 32.49
+        }
+      },
+      {
+        "key": [
+          "Nourriture lyophilisée camping"
+        ],
+        "value": {
+          "sum": 150.90999999999997,
+          "count": 9,
+          "min": 10.99,
+          "max": 20.99,
+          "sumsqr": 2649.9808999999996,
+          "moyenne": 16.77
+        }
+      },
+      {
+        "key": [
+          "Nouveautés chaussures et bottes"
+        ],
+        "value": {
+          "sum": 54.99,
+          "count": 1,
+          "min": 54.99,
+          "max": 54.99,
+          "sumsqr": 3023.9001000000003,
+          "moyenne": 54.99
+        }
+      },
+      {
+        "key": [
+          "Nouveautés pêche"
+        ],
+        "value": {
+          "sum": 798.99,
+          "count": 2,
+          "min": 299.99,
+          "max": 499,
+          "sumsqr": 338995.0001,
+          "moyenne": 399.5
+        }
+      },
+      {
+        "key": [
+          "Nouveautés pour enfants"
+        ],
+        "value": {
+          "sum": 698.7900000000001,
+          "count": 30,
+          "min": 4,
+          "max": 64.99,
+          "sumsqr": 22517.7221,
+          "moyenne": 23.29
+        }
+      },
+      {
+        "key": [
+          "Nouveautés pour femmes"
+        ],
+        "value": {
+          "sum": 10106.839999999998,
+          "count": 17,
+          "min": 6.99,
+          "max": 7199.99,
+          "sumsqr": 52992747.9616,
+          "moyenne": 594.52
+        }
+      },
+      {
+        "key": [
+          "Nouveautés pour hommes"
+        ],
+        "value": {
+          "sum": 9261.859999999999,
+          "count": 14,
+          "min": 6.99,
+          "max": 7199.99,
+          "sumsqr": 52636438.76139999,
+          "moyenne": 661.56
+        }
+      },
+      {
+        "key": [
+          "Nouveautés randonnée et camping"
+        ],
+        "value": {
+          "sum": 1088.95,
+          "count": 6,
+          "min": 14.99,
+          "max": 499,
+          "sumsqr": 415239.20050000004,
+          "moyenne": 181.49
+        }
+      },
+      {
+        "key": [
+          "Nouveautés sports de précision"
+        ],
+        "value": {
+          "sum": 499,
+          "count": 1,
+          "min": 499,
+          "max": 499,
+          "sumsqr": 249001,
+          "moyenne": 499.0
+        }
+      },
+      {
+        "key": [
+          "Nouveautés sports nautiques"
+        ],
+        "value": {
+          "sum": 499,
+          "count": 1,
+          "min": 499,
+          "max": 499,
+          "sumsqr": 249001,
+          "moyenne": 499.0
+        }
+      },
+      {
+        "key": [
+          "Nutrition et hydratation course à pied"
+        ],
+        "value": {
+          "sum": 138.47000000000003,
+          "count": 23,
+          "min": 2.5,
+          "max": 39.99,
+          "sumsqr": 2192.2913000000003,
+          "moyenne": 6.02
+        }
+      },
+      {
+        "key": [
+          "Nutrition sportive"
+        ],
+        "value": {
+          "sum": 210.91999999999996,
+          "count": 29,
+          "min": 2.5,
+          "max": 22.99,
+          "sumsqr": 2639.1618,
+          "moyenne": 7.27
+        }
+      },
+      {
+        "key": [
+          "Outils pour roues de vélo"
+        ],
+        "value": {
+          "sum": 76.94999999999999,
+          "count": 5,
+          "min": 9.99,
+          "max": 21.99,
+          "sumsqr": 1257.4605000000001,
+          "moyenne": 15.39
+        }
+      },
+      {
+        "key": [
+          "Paniers à balles de tennis"
+        ],
+        "value": {
+          "sum": 134.98,
+          "count": 2,
+          "min": 39.99,
+          "max": 94.99,
+          "sumsqr": 10622.3002,
+          "moyenne": 67.49
+        }
+      },
+      {
+        "key": [
+          "Pantalons chino pour hommes"
+        ],
+        "value": {
+          "sum": 100.99000000000001,
+          "count": 3,
+          "min": 25,
+          "max": 39.99,
+          "sumsqr": 3520.2001,
+          "moyenne": 33.66
+        }
+      },
+      {
+        "key": [
+          "Pantalons convertibles pour filles"
+        ],
+        "value": {
+          "sum": 84.97999999999999,
+          "count": 3,
+          "min": 25,
+          "max": 29.99,
+          "sumsqr": 2423.8001999999997,
+          "moyenne": 28.33
+        }
+      },
+      {
+        "key": [
+          "Pantalons d'entraînement femmes"
+        ],
+        "value": {
+          "sum": 299.92,
+          "count": 9,
+          "min": 19.99,
+          "max": 44.99,
+          "sumsqr": 10694.4008,
+          "moyenne": 33.32
+        }
+      },
+      {
+        "key": [
+          "Pantalons de course en sentier femmes"
+        ],
+        "value": {
+          "sum": 139.97,
+          "count": 3,
+          "min": 24.99,
+          "max": 64.99,
+          "sumsqr": 7347.2002999999995,
+          "moyenne": 46.66
+        }
+      },
+      {
+        "key": [
+          "Pantalons de neige pour filles"
+        ],
+        "value": {
+          "sum": 989.8800000000001,
+          "count": 14,
+          "min": 19.99,
+          "max": 159.99,
+          "sumsqr": 88283.20120000001,
+          "moyenne": 70.71
+        }
+      },
+      {
+        "key": [
+          "Pantalons de pluie pour filles"
+        ],
+        "value": {
+          "sum": 164.94,
+          "count": 6,
+          "min": 14.99,
+          "max": 39.99,
+          "sumsqr": 4871.7006,
+          "moyenne": 27.49
+        }
+      },
+      {
+        "key": [
+          "Pantalons de pluie pour garçons"
+        ],
+        "value": {
+          "sum": 164.94,
+          "count": 6,
+          "min": 14.99,
+          "max": 39.99,
+          "sumsqr": 4871.7006,
+          "moyenne": 27.49
+        }
+      },
+      {
+        "key": [
+          "Pantalons de ski femmes"
+        ],
+        "value": {
+          "sum": 899.9300000000001,
+          "count": 7,
+          "min": 59.99,
+          "max": 189.99,
+          "sumsqr": 131982.0007,
+          "moyenne": 128.56
+        }
+      },
+      {
+        "key": [
+          "Pantalons de yoga femmes"
+        ],
+        "value": {
+          "sum": 119.97,
+          "count": 3,
+          "min": 34.99,
+          "max": 44.99,
+          "sumsqr": 4847.6003,
+          "moyenne": 39.99
+        }
+      },
+      {
+        "key": [
+          "Pantalons imperméables pour garçons"
+        ],
+        "value": {
+          "sum": 244.92000000000002,
+          "count": 8,
+          "min": 14.99,
+          "max": 49.99,
+          "sumsqr": 8520.1008,
+          "moyenne": 30.62
+        }
+      },
+      {
+        "key": [
+          "Pantalons, jupes et shorts de padel femmes"
+        ],
+        "value": {
+          "sum": 59.989999999999995,
+          "count": 3,
+          "min": 19.99,
+          "max": 20,
+          "sumsqr": 1199.6000999999999,
+          "moyenne": 20.0
+        }
+      },
+      {
+        "key": [
+          "Pantalons, jupes et shorts de picklebal femmes"
+        ],
+        "value": {
+          "sum": 59.989999999999995,
+          "count": 3,
+          "min": 19.99,
+          "max": 20,
+          "sumsqr": 1199.6000999999999,
+          "moyenne": 20.0
+        }
+      },
+      {
+        "key": [
+          "Parkas pour femmes"
+        ],
+        "value": {
+          "sum": 579.97,
+          "count": 3,
+          "min": 139.99,
+          "max": 239.99,
+          "sumsqr": 117188.40030000001,
+          "moyenne": 193.32
+        }
+      },
+      {
+        "key": [
+          "Patins de hockey"
+        ],
+        "value": {
+          "sum": 159.98,
+          "count": 2,
+          "min": 69.99,
+          "max": 89.99,
+          "sumsqr": 12996.800199999998,
+          "moyenne": 79.99
+        }
+      },
+      {
+        "key": [
+          "Pédales de vélo"
+        ],
+        "value": {
+          "sum": 779.8200000000002,
+          "count": 19,
+          "min": 9.99,
+          "max": 154.99,
+          "sumsqr": 55032.8018,
+          "moyenne": 41.04
+        }
+      },
+      {
+        "key": [
+          "Peignoirs de piscine"
+        ],
+        "value": {
+          "sum": 54.99,
+          "count": 2,
+          "min": 20,
+          "max": 34.99,
+          "sumsqr": 1624.3001000000002,
+          "moyenne": 27.5
+        }
+      },
+      {
+        "key": [
+          "Pièces détachées chaises"
+        ],
+        "value": {
+          "sum": 141.23999999999998,
+          "count": 6,
+          "min": 4.29,
+          "max": 34.99,
+          "sumsqr": 4058.6646,
+          "moyenne": 23.54
+        }
+      },
+      {
+        "key": [
+          "Pièces détachées chaussures de randonnée"
+        ],
+        "value": {
+          "sum": 82.95,
+          "count": 6,
+          "min": 4.99,
+          "max": 21.99,
+          "sumsqr": 1379.5804999999998,
+          "moyenne": 13.83
+        }
+      },
+      {
+        "key": [
+          "Pièces détachées pagaies de kayak"
+        ],
+        "value": {
+          "sum": 4.29,
+          "count": 1,
+          "min": 4.29,
+          "max": 4.29,
+          "sumsqr": 18.4041,
+          "moyenne": 4.29
+        }
+      },
+      {
+        "key": [
+          "Planches et flotteurs"
+        ],
+        "value": {
+          "sum": 71.95,
+          "count": 5,
+          "min": 9.99,
+          "max": 19.99,
+          "sumsqr": 1092.5605,
+          "moyenne": 14.39
+        }
+      },
+      {
+        "key": [
+          "Pneus de vélo de gravelle"
+        ],
+        "value": {
+          "sum": 124.97999999999999,
+          "count": 2,
+          "min": 24.99,
+          "max": 99.99,
+          "sumsqr": 10622.500199999999,
+          "moyenne": 62.49
+        }
+      },
+      {
+        "key": [
+          "Pneus de vélo de route"
+        ],
+        "value": {
+          "sum": 219.95,
+          "count": 6,
+          "min": 15,
+          "max": 99.99,
+          "sumsqr": 13045.9005,
+          "moyenne": 36.66
+        }
+      },
+      {
+        "key": [
+          "Pneus de vélo urbain"
+        ],
+        "value": {
+          "sum": 416.92,
+          "count": 12,
+          "min": 16,
+          "max": 99.99,
+          "sumsqr": 22874.300799999997,
+          "moyenne": 34.74
+        }
+      },
+      {
+        "key": [
+          "Poches à eau de randonnée"
+        ],
+        "value": {
+          "sum": 50.97,
+          "count": 3,
+          "min": 6.99,
+          "max": 24.99,
+          "sumsqr": 1033.9803,
+          "moyenne": 16.99
+        }
+      },
+      {
+        "key": [
+          "Podomètres"
+        ],
+        "value": {
+          "sum": 19.99,
+          "count": 1,
+          "min": 19.99,
+          "max": 19.99,
+          "sumsqr": 399.60009999999994,
+          "moyenne": 19.99
+        }
+      },
+      {
+        "key": [
+          "Polaires de randonnée"
+        ],
+        "value": {
+          "sum": 822.7000000000002,
+          "count": 31,
+          "min": 9.99,
+          "max": 54.99,
+          "sumsqr": 26899.143000000004,
+          "moyenne": 26.54
+        }
+      },
+      {
+        "key": [
+          "Polos pour garçons"
+        ],
+        "value": {
+          "sum": 31.99,
+          "count": 2,
+          "min": 7,
+          "max": 24.99,
+          "sumsqr": 673.5001,
+          "moyenne": 15.99
+        }
+      },
+      {
+        "key": [
+          "Pompes à pied"
+        ],
+        "value": {
+          "sum": 156.96,
+          "count": 6,
+          "min": 4.99,
+          "max": 50,
+          "sumsqr": 5853.760399999999,
+          "moyenne": 26.16
+        }
+      },
+      {
+        "key": [
+          "Ponchos de pluie pour filles"
+        ],
+        "value": {
+          "sum": 11.99,
+          "count": 1,
+          "min": 11.99,
+          "max": 11.99,
+          "sumsqr": 143.7601,
+          "moyenne": 11.99
+        }
+      },
+      {
+        "key": [
+          "Ponchos de vélo"
+        ],
+        "value": {
+          "sum": 79.98,
+          "count": 2,
+          "min": 29.99,
+          "max": 49.99,
+          "sumsqr": 3398.4002,
+          "moyenne": 39.99
+        }
+      },
+      {
+        "key": [
+          "Premiers soins"
+        ],
+        "value": {
+          "sum": 67.95,
+          "count": 5,
+          "min": 4.99,
+          "max": 23.99,
+          "sumsqr": 1112.6405,
+          "moyenne": 13.59
+        }
+      },
+      {
+        "key": [
+          "Protège-barres"
+        ],
+        "value": {
+          "sum": 54.98,
+          "count": 2,
+          "min": 24.99,
+          "max": 29.99,
+          "sumsqr": 1523.9002,
+          "moyenne": 27.49
+        }
+      },
+      {
+        "key": [
+          "Protège-tibias"
+        ],
+        "value": {
+          "sum": 73.94,
+          "count": 6,
+          "min": 6.99,
+          "max": 17.99,
+          "sumsqr": 1032.5205999999998,
+          "moyenne": 12.32
+        }
+      },
+      {
+        "key": [
+          "Protéines"
+        ],
+        "value": {
+          "sum": 102.96000000000001,
+          "count": 6,
+          "min": 3.79,
+          "max": 44.99,
+          "sumsqr": 3707.1644000000006,
+          "moyenne": 17.16
+        }
+      },
+      {
+        "key": [
+          "Quilles finlandaises"
+        ],
+        "value": {
+          "sum": 64.98,
+          "count": 2,
+          "min": 24.99,
+          "max": 39.99,
+          "sumsqr": 2223.7002,
+          "moyenne": 32.49
+        }
+      },
+      {
+        "key": [
+          "Réparation de planches de SUP"
+        ],
+        "value": {
+          "sum": 200,
+          "count": 5,
+          "min": 30,
+          "max": 60,
+          "sumsqr": 8600,
+          "moyenne": 40.0
+        }
+      },
+      {
+        "key": [
+          "Réparation de vélos stationnaires et d'elliptiques"
+        ],
+        "value": {
+          "sum": 250,
+          "count": 9,
+          "min": 15,
+          "max": 45,
+          "sumsqr": 7900,
+          "moyenne": 27.78
+        }
+      },
+      {
+        "key": [
+          "Roues de vélo de gravelle"
+        ],
+        "value": {
+          "sum": 409.96000000000004,
+          "count": 4,
+          "min": 84.99,
+          "max": 129.99,
+          "sumsqr": 43141.80040000001,
+          "moyenne": 102.49
+        }
+      },
+      {
+        "key": [
+          "Roues de vélo randonnée"
+        ],
+        "value": {
+          "sum": 649.8900000000001,
+          "count": 11,
+          "min": 29.99,
+          "max": 129.99,
+          "sumsqr": 45937.001099999994,
+          "moyenne": 59.08
+        }
+      },
+      {
+        "key": [
+          "Roues libres de vélo"
+        ],
+        "value": {
+          "sum": 69.96,
+          "count": 4,
+          "min": 14.99,
+          "max": 19.99,
+          "sumsqr": 1248.6003999999998,
+          "moyenne": 17.49
+        }
+      },
+      {
+        "key": [
+          "Rubans adhésifs"
+        ],
+        "value": {
+          "sum": 49.95,
+          "count": 5,
+          "min": 5.99,
+          "max": 11.99,
+          "sumsqr": 523.0005,
+          "moyenne": 9.99
+        }
+      },
+      {
+        "key": [
+          "Sacoches de selle de vélo"
+        ],
+        "value": {
+          "sum": 213.93000000000004,
+          "count": 7,
+          "min": 7.99,
+          "max": 79.99,
+          "sumsqr": 9865.720699999996,
+          "moyenne": 30.56
+        }
+      },
+      {
+        "key": [
+          "Sacoches de vélo"
+        ],
+        "value": {
+          "sum": 1652.6399999999999,
+          "count": 36,
+          "min": 7.99,
+          "max": 134.99,
+          "sumsqr": 105961.9436,
+          "moyenne": 45.91
+        }
+      },
+      {
+        "key": [
+          "Sacoches imperméables de vélo"
+        ],
+        "value": {
+          "sum": 197.95,
+          "count": 5,
+          "min": 12.99,
+          "max": 79.99,
+          "sumsqr": 10390.0405,
+          "moyenne": 39.59
+        }
+      },
+      {
+        "key": [
+          "Sacoches pour porte-bagages de vélo"
+        ],
+        "value": {
+          "sum": 674.91,
+          "count": 9,
+          "min": 19.99,
+          "max": 134.99,
+          "sumsqr": 60561.5009,
+          "moyenne": 74.99
+        }
+      },
+      {
+        "key": [
+          "Sacs à bandoulière pour hommes"
+        ],
+        "value": {
+          "sum": 24.99,
+          "count": 1,
+          "min": 24.99,
+          "max": 24.99,
+          "sumsqr": 624.5001,
+          "moyenne": 24.99
+        }
+      },
+      {
+        "key": [
+          "Sacs à dos de vélo"
+        ],
+        "value": {
+          "sum": 416.92999999999995,
+          "count": 8,
+          "min": 11.99,
+          "max": 79.99,
+          "sumsqr": 25511.360699999997,
+          "moyenne": 52.12
+        }
+      },
+      {
+        "key": [
+          "Sacs d'hydratation de vélo"
+        ],
+        "value": {
+          "sum": 319.95,
+          "count": 5,
+          "min": 39.99,
+          "max": 79.99,
+          "sumsqr": 21643.600499999997,
+          "moyenne": 63.99
+        }
+      },
+      {
+        "key": [
+          "Sacs de padel"
+        ],
+        "value": {
+          "sum": 60,
+          "count": 1,
+          "min": 60,
+          "max": 60,
+          "sumsqr": 3600,
+          "moyenne": 60.0
+        }
+      },
+      {
+        "key": [
+          "Sacs de plage"
+        ],
+        "value": {
+          "sum": 193.94,
+          "count": 6,
+          "min": 16.99,
+          "max": 48.99,
+          "sumsqr": 6908.1206,
+          "moyenne": 32.32
+        }
+      },
+      {
+        "key": [
+          "Sacs de ski"
+        ],
+        "value": {
+          "sum": 949.8000000000002,
+          "count": 22,
+          "min": 3.49,
+          "max": 149.99,
+          "sumsqr": 79582.102,
+          "moyenne": 43.17
+        }
+      },
+      {
+        "key": [
+          "Sacs de ski de fond"
+        ],
+        "value": {
+          "sum": 211.95,
+          "count": 5,
+          "min": 11.99,
+          "max": 89.99,
+          "sumsqr": 12889.760499999999,
+          "moyenne": 42.39
+        }
+      },
+      {
+        "key": [
+          "Sacs de taille"
+        ],
+        "value": {
+          "sum": 254.93000000000004,
+          "count": 9,
+          "min": 8.99,
+          "max": 64.99,
+          "sumsqr": 9783.100699999999,
+          "moyenne": 28.33
+        }
+      },
+      {
+        "key": [
+          "Sacs de voyage pour hommes"
+        ],
+        "value": {
+          "sum": 529.95,
+          "count": 5,
+          "min": 49.99,
+          "max": 169.99,
+          "sumsqr": 66239.4005,
+          "moyenne": 105.99
+        }
+      },
+      {
+        "key": [
+          "Sacs et cordes d'escalade"
+        ],
+        "value": {
+          "sum": 962.8100000000002,
+          "count": 19,
+          "min": 7.99,
+          "max": 199.99,
+          "sumsqr": 108037.7419,
+          "moyenne": 50.67
+        }
+      },
+      {
+        "key": [
+          "Sandales de plage pour femmes"
+        ],
+        "value": {
+          "sum": 148.96999999999997,
+          "count": 9,
+          "min": 5,
+          "max": 27.99,
+          "sumsqr": 2999.8403,
+          "moyenne": 16.55
+        }
+      },
+      {
+        "key": [
+          "Sandales de plage pour garçons"
+        ],
+        "value": {
+          "sum": 20,
+          "count": 4,
+          "min": 3,
+          "max": 6,
+          "sumsqr": 106,
+          "moyenne": 5.0
+        }
+      },
+      {
+        "key": [
+          "Sandales pour garçons"
+        ],
+        "value": {
+          "sum": 83.97999999999999,
+          "count": 4,
+          "min": 16.99,
+          "max": 30,
+          "sumsqr": 1877.3202,
+          "moyenne": 20.99
+        }
+      },
+      {
+        "key": [
+          "Sandales pour hommes"
+        ],
+        "value": {
+          "sum": 188.98000000000002,
+          "count": 5,
+          "min": 24,
+          "max": 59.99,
+          "sumsqr": 7999.0002,
+          "moyenne": 37.8
+        }
+      },
+      {
+        "key": [
+          "Sarr X Décathlon"
+        ],
+        "value": {
+          "sum": 124.99000000000001,
+          "count": 2,
+          "min": 39.99,
+          "max": 85,
+          "sumsqr": 8824.2001,
+          "moyenne": 62.5
+        }
+      },
+      {
+        "key": [
+          "Sécurité et protection de la peau en randonnée"
+        ],
+        "value": {
+          "sum": 334.83000000000004,
+          "count": 17,
+          "min": 4.99,
+          "max": 35.99,
+          "sumsqr": 7846.3017,
+          "moyenne": 19.7
+        }
+      },
+      {
+        "key": [
+          "Sellerie et briderie"
+        ],
+        "value": {
+          "sum": 819.8,
+          "count": 24,
+          "min": 7.5,
+          "max": 99.99,
+          "sumsqr": 43977.642,
+          "moyenne": 34.16
+        }
+      },
+      {
+        "key": [
+          "Semelles"
+        ],
+        "value": {
+          "sum": 132.93,
+          "count": 9,
+          "min": 8.99,
+          "max": 21.99,
+          "sumsqr": 2158.8206999999998,
+          "moyenne": 14.77
+        }
+      },
+      {
+        "key": [
+          "Services de fartage et d'affûtage de skis"
+        ],
+        "value": {
+          "sum": 73,
+          "count": 2,
+          "min": 13,
+          "max": 60,
+          "sumsqr": 3769,
+          "moyenne": 36.5
+        }
+      },
+      {
+        "key": [
+          "Serviettes à cheveux"
+        ],
+        "value": {
+          "sum": 7.99,
+          "count": 1,
+          "min": 7.99,
+          "max": 7.99,
+          "sumsqr": 63.84010000000001,
+          "moyenne": 7.99
+        }
+      },
+      {
+        "key": [
+          "Serviettes d'entraînement"
+        ],
+        "value": {
+          "sum": 20.98,
+          "count": 2,
+          "min": 8.99,
+          "max": 11.99,
+          "sumsqr": 224.5802,
+          "moyenne": 10.49
+        }
+      },
+      {
+        "key": [
+          "Serviettes pour enfants"
+        ],
+        "value": {
+          "sum": 269.84999999999997,
+          "count": 17,
+          "min": 4.99,
+          "max": 29.99,
+          "sumsqr": 5323.201499999999,
+          "moyenne": 15.87
+        }
+      },
+      {
+        "key": [
+          "Shorts amples et fendus de course en sentier femmes"
+        ],
+        "value": {
+          "sum": 93.99000000000001,
+          "count": 4,
+          "min": 9,
+          "max": 34.99,
+          "sumsqr": 2555.3001000000004,
+          "moyenne": 23.5
+        }
+      },
+      {
+        "key": [
+          "Shorts de badminton"
+        ],
+        "value": {
+          "sum": 155.95,
+          "count": 10,
+          "min": 7,
+          "max": 24,
+          "sumsqr": 2698.4004999999997,
+          "moyenne": 15.59
+        }
+      },
+      {
+        "key": [
+          "Shorts de soccer femmes"
+        ],
+        "value": {
+          "sum": 29.98,
+          "count": 2,
+          "min": 14.99,
+          "max": 14.99,
+          "sumsqr": 449.40020000000004,
+          "moyenne": 14.99
+        }
+      },
+      {
+        "key": [
+          "Shorts de sport filles"
+        ],
+        "value": {
+          "sum": 79.96000000000001,
+          "count": 8,
+          "min": 4,
+          "max": 16.99,
+          "sumsqr": 941.0004,
+          "moyenne": 10.0
+        }
+      },
+      {
+        "key": [
+          "Shorts de tennis"
+        ],
+        "value": {
+          "sum": 150.95,
+          "count": 9,
+          "min": 7,
+          "max": 24,
+          "sumsqr": 2773.4004999999997,
+          "moyenne": 16.77
+        }
+      },
+      {
+        "key": [
+          "Shorts pour garçons"
+        ],
+        "value": {
+          "sum": 148.93,
+          "count": 13,
+          "min": 6.99,
+          "max": 15,
+          "sumsqr": 1845.2207,
+          "moyenne": 11.46
+        }
+      },
+      {
+        "key": [
+          "Skis de fond de patin"
+        ],
+        "value": {
+          "sum": 386.97,
+          "count": 3,
+          "min": 11.99,
+          "max": 319.99,
+          "sumsqr": 105561.26030000001,
+          "moyenne": 128.99
+        }
+      },
+      {
+        "key": [
+          "Skis enfants"
+        ],
+        "value": {
+          "sum": 1234.8700000000001,
+          "count": 14,
+          "min": 3.49,
+          "max": 189.99,
+          "sumsqr": 175877.20130000002,
+          "moyenne": 88.21
+        }
+      },
+      {
+        "key": [
+          "Skis femmes"
+        ],
+        "value": {
+          "sum": 4499.93,
+          "count": 8,
+          "min": 349.99,
+          "max": 1089.99,
+          "sumsqr": 2932118.8007,
+          "moyenne": 562.49
+        }
+      },
+      {
+        "key": [
+          "Souliers de plongée"
+        ],
+        "value": {
+          "sum": 199.93,
+          "count": 9,
+          "min": 11.99,
+          "max": 45,
+          "sumsqr": 5437.2207,
+          "moyenne": 22.21
+        }
+      },
+      {
+        "key": [
+          "Sous-gants pour hommes"
+        ],
+        "value": {
+          "sum": 52.97,
+          "count": 3,
+          "min": 8.99,
+          "max": 29.99,
+          "sumsqr": 1175.9402999999998,
+          "moyenne": 17.66
+        }
+      },
+      {
+        "key": [
+          "Sous-vêtements de course femmes"
+        ],
+        "value": {
+          "sum": 59.959999999999994,
+          "count": 4,
+          "min": 6.99,
+          "max": 24.99,
+          "sumsqr": 1114.8003999999999,
+          "moyenne": 14.99
+        }
+      },
+      {
+        "key": [
+          "Sous-vêtements thermiques de soccer adultes"
+        ],
+        "value": {
+          "sum": 172.93,
+          "count": 7,
+          "min": 17.99,
+          "max": 34.99,
+          "sumsqr": 4479.5407000000005,
+          "moyenne": 24.7
+        }
+      },
+      {
+        "key": [
+          "Supports articulaires et musculaires"
+        ],
+        "value": {
+          "sum": 871.7200000000001,
+          "count": 30,
+          "min": 12,
+          "max": 69.99,
+          "sumsqr": 30913.2028,
+          "moyenne": 29.06
+        }
+      },
+      {
+        "key": [
+          "Supports au sol de vélo"
+        ],
+        "value": {
+          "sum": 169.97,
+          "count": 3,
+          "min": 44.99,
+          "max": 74.99,
+          "sumsqr": 10146.600299999998,
+          "moyenne": 56.66
+        }
+      },
+      {
+        "key": [
+          "Supports de plafond de vélo"
+        ],
+        "value": {
+          "sum": 7.99,
+          "count": 1,
+          "min": 7.99,
+          "max": 7.99,
+          "sumsqr": 63.84010000000001,
+          "moyenne": 7.99
+        }
+      },
+      {
+        "key": [
+          "Supports de réparation de vélo"
+        ],
+        "value": {
+          "sum": 94.99,
+          "count": 1,
+          "min": 94.99,
+          "max": 94.99,
+          "sumsqr": 9023.1001,
+          "moyenne": 94.99
+        }
+      },
+      {
+        "key": [
+          "Supports muraux de vélo"
+        ],
+        "value": {
+          "sum": 162.96,
+          "count": 4,
+          "min": 7.99,
+          "max": 74.99,
+          "sumsqr": 8935.740399999999,
+          "moyenne": 40.74
+        }
+      },
+      {
+        "key": [
+          "Supports pour coude"
+        ],
+        "value": {
+          "sum": 46.99,
+          "count": 3,
+          "min": 12,
+          "max": 20,
+          "sumsqr": 768.7001,
+          "moyenne": 15.66
+        }
+      },
+      {
+        "key": [
+          "Supports pour poignets"
+        ],
+        "value": {
+          "sum": 68.97,
+          "count": 3,
+          "min": 15.99,
+          "max": 34.99,
+          "sumsqr": 1803.6203,
+          "moyenne": 22.99
+        }
+      },
+      {
+        "key": [
+          "Survêtements de sport garçons"
+        ],
+        "value": {
+          "sum": 96.96999999999998,
+          "count": 5,
+          "min": 14,
+          "max": 23.99,
+          "sumsqr": 1935.7403,
+          "moyenne": 19.39
+        }
+      },
+      {
+        "key": [
+          "T-shirts anti-UV pour femmes"
+        ],
+        "value": {
+          "sum": 142.95999999999998,
+          "count": 8,
+          "min": 11.99,
+          "max": 29.99,
+          "sumsqr": 2815.5804,
+          "moyenne": 17.87
+        }
+      },
+      {
+        "key": [
+          "T-shirts d'entraînement hommes"
+        ],
+        "value": {
+          "sum": 171.92999999999998,
+          "count": 12,
+          "min": 7.99,
+          "max": 24.99,
+          "sumsqr": 2915.6007,
+          "moyenne": 14.33
+        }
+      },
+      {
+        "key": [
+          "T-shirts de course hommes"
+        ],
+        "value": {
+          "sum": 167.95,
+          "count": 8,
+          "min": 8.99,
+          "max": 40,
+          "sumsqr": 4210.340499999999,
+          "moyenne": 20.99
+        }
+      },
+      {
+        "key": [
+          "T-shirts de pilates hommes"
+        ],
+        "value": {
+          "sum": 48.97,
+          "count": 5,
+          "min": 7.99,
+          "max": 14.99,
+          "sumsqr": 516.3403000000001,
+          "moyenne": 9.79
+        }
+      },
+      {
+        "key": [
+          "T-shirts de sport filles"
+        ],
+        "value": {
+          "sum": 87.96000000000001,
+          "count": 10,
+          "min": 4,
+          "max": 14.99,
+          "sumsqr": 915.1004,
+          "moyenne": 8.8
+        }
+      },
+      {
+        "key": [
+          "T-shirts de sport garçons"
+        ],
+        "value": {
+          "sum": 64.97,
+          "count": 7,
+          "min": 4,
+          "max": 13.99,
+          "sumsqr": 696.3003,
+          "moyenne": 9.28
+        }
+      },
+      {
+        "key": [
+          "T-shirts et hauts de randonnée"
+        ],
+        "value": {
+          "sum": 1130.77,
+          "count": 26,
+          "min": 6,
+          "max": 89.99,
+          "sumsqr": 61286.84229999999,
+          "moyenne": 43.49
+        }
+      },
+      {
+        "key": [
+          "T-shirts pour filles"
+        ],
+        "value": {
+          "sum": 434.82000000000005,
+          "count": 28,
+          "min": 4,
+          "max": 39.99,
+          "sumsqr": 9458.061800000001,
+          "moyenne": 15.53
+        }
+      },
+      {
+        "key": [
+          "T-shirts pour garçons"
+        ],
+        "value": {
+          "sum": 443.82000000000005,
+          "count": 29,
+          "min": 4,
+          "max": 39.99,
+          "sumsqr": 8787.4418,
+          "moyenne": 15.3
+        }
+      },
+      {
+        "key": [
+          "T-shirts pour hommes"
+        ],
+        "value": {
+          "sum": 1066.75,
+          "count": 32,
+          "min": 6,
+          "max": 89.99,
+          "sumsqr": 54070.042499999996,
+          "moyenne": 33.34
+        }
+      },
+      {
+        "key": [
+          "Tapis d'entraînement"
+        ],
+        "value": {
+          "sum": 359.90000000000003,
+          "count": 10,
+          "min": 14.99,
+          "max": 69.99,
+          "sumsqr": 15892.801,
+          "moyenne": 35.99
+        }
+      },
+      {
+        "key": [
+          "Télémètres"
+        ],
+        "value": {
+          "sum": 149.99,
+          "count": 1,
+          "min": 149.99,
+          "max": 149.99,
+          "sumsqr": 22497.0001,
+          "moyenne": 149.99
+        }
+      },
+      {
+        "key": [
+          "Tentes de toit"
+        ],
+        "value": {
+          "sum": 1550,
+          "count": 1,
+          "min": 1550,
+          "max": 1550,
+          "sumsqr": 2402500,
+          "moyenne": 1550.0
+        }
+      },
+      {
+        "key": [
+          "Tentes et abris"
+        ],
+        "value": {
+          "sum": 6230.709999999999,
+          "count": 36,
+          "min": 5.99,
+          "max": 1550,
+          "sumsqr": 4410043.442899999,
+          "moyenne": 173.08
+        }
+      },
+      {
+        "key": [
+          "Tentes Fresh & Black"
+        ],
+        "value": {
+          "sum": 1409.95,
+          "count": 5,
+          "min": 149.99,
+          "max": 559.99,
+          "sumsqr": 519871.8005,
+          "moyenne": 281.99
+        }
+      },
+      {
+        "key": [
+          "Tiges de selle de vélo"
+        ],
+        "value": {
+          "sum": 263.91,
+          "count": 9,
+          "min": 6.99,
+          "max": 129.99,
+          "sumsqr": 19542.720900000008,
+          "moyenne": 29.32
+        }
+      },
+      {
+        "key": [
+          "Tricots pour hommes"
+        ],
+        "value": {
+          "sum": 184.97,
+          "count": 4,
+          "min": 25,
+          "max": 99.99,
+          "sumsqr": 12421.8003,
+          "moyenne": 46.24
+        }
+      },
+      {
+        "key": [
+          "Trousses de plongée"
+        ],
+        "value": {
+          "sum": 227.94,
+          "count": 7,
+          "min": 5,
+          "max": 54.99,
+          "sumsqr": 8879.5406,
+          "moyenne": 32.56
+        }
+      },
+      {
+        "key": [
+          "Trousses de secours"
+        ],
+        "value": {
+          "sum": 23.99,
+          "count": 1,
+          "min": 23.99,
+          "max": 23.99,
+          "sumsqr": 575.5201,
+          "moyenne": 23.99
+        }
+      },
+      {
+        "key": [
+          "Tubas de natation"
+        ],
+        "value": {
+          "sum": 74.97999999999999,
+          "count": 3,
+          "min": 24.99,
+          "max": 25,
+          "sumsqr": 1874.0002,
+          "moyenne": 24.99
+        }
+      },
+      {
+        "key": [
+          "Tuques pour enfants"
+        ],
+        "value": {
+          "sum": 310.35,
+          "count": 18,
+          "min": 4.49,
+          "max": 29.99,
+          "sumsqr": 6446.621499999999,
+          "moyenne": 17.24
+        }
+      },
+      {
+        "key": [
+          "Vélo d'hiver"
+        ],
+        "value": {
+          "sum": 2059.67,
+          "count": 35,
+          "min": 6.99,
+          "max": 470,
+          "sumsqr": 349442.80329999997,
+          "moyenne": 58.85
+        }
+      },
+      {
+        "key": [
+          "Vélos de route enfants"
+        ],
+        "value": {
+          "sum": 509.99,
+          "count": 1,
+          "min": 509.99,
+          "max": 509.99,
+          "sumsqr": 260089.80010000002,
+          "moyenne": 509.99
+        }
+      },
+      {
+        "key": [
+          "Vélos de triathlon"
+        ],
+        "value": {
+          "sum": 85319.87,
+          "count": 20,
+          "min": 389.99,
+          "max": 13699,
+          "sumsqr": 637067953.5213001,
+          "moyenne": 4265.99
+        }
+      },
+      {
+        "key": [
+          "Vélos de ville"
+        ],
+        "value": {
+          "sum": 8339.939999999999,
+          "count": 8,
+          "min": 449.99,
+          "max": 2699.99,
+          "sumsqr": 14175057.000599999,
+          "moyenne": 1042.49
+        }
+      },
+      {
+        "key": [
+          "Vélos enfants 14 po"
+        ],
+        "value": {
+          "sum": 699.97,
+          "count": 3,
+          "min": 189.99,
+          "max": 269.99,
+          "sumsqr": 166586.0003,
+          "moyenne": 233.32
+        }
+      },
+      {
+        "key": [
+          "Vélos enfants 24 po"
+        ],
+        "value": {
+          "sum": 1079.97,
+          "count": 3,
+          "min": 279.99,
+          "max": 449.99,
+          "sumsqr": 403378.40030000004,
+          "moyenne": 359.99
+        }
+      },
+      {
+        "key": [
+          "Vestes d'hydratation de course"
+        ],
+        "value": {
+          "sum": 539.93,
+          "count": 8,
+          "min": 34.99,
+          "max": 109.99,
+          "sumsqr": 40390.700699999994,
+          "moyenne": 67.49
+        }
+      },
+      {
+        "key": [
+          "Vêtements anti-UV pour femmes"
+        ],
+        "value": {
+          "sum": 167.95,
+          "count": 9,
+          "min": 11.99,
+          "max": 29.99,
+          "sumsqr": 3440.0805,
+          "moyenne": 18.66
+        }
+      },
+      {
+        "key": [
+          "Vêtements anti-UV pour filles"
+        ],
+        "value": {
+          "sum": 104.94999999999999,
+          "count": 8,
+          "min": 4,
+          "max": 19.99,
+          "sumsqr": 1603.3404999999998,
+          "moyenne": 13.12
+        }
+      },
+      {
+        "key": [
+          "Vêtements d'automne"
+        ],
+        "value": {
+          "sum": 910.7200000000003,
+          "count": 35,
+          "min": 3,
+          "max": 59.99,
+          "sumsqr": 33444.2028,
+          "moyenne": 26.02
+        }
+      },
+      {
+        "key": [
+          "Vêtements de basketball"
+        ],
+        "value": {
+          "sum": 183.93,
+          "count": 11,
+          "min": 5,
+          "max": 24.99,
+          "sumsqr": 3517.2607,
+          "moyenne": 16.72
+        }
+      },
+      {
+        "key": [
+          "Vêtements de compression de course femmes"
+        ],
+        "value": {
+          "sum": 39.98,
+          "count": 2,
+          "min": 14.99,
+          "max": 24.99,
+          "sumsqr": 849.2002,
+          "moyenne": 19.99
+        }
+      },
+      {
+        "key": [
+          "Vêtements de futsal enfants"
+        ],
+        "value": {
+          "sum": 186.92,
+          "count": 11,
+          "min": 8,
+          "max": 29.99,
+          "sumsqr": 3869.8007999999995,
+          "moyenne": 16.99
+        }
+      },
+      {
+        "key": [
+          "Vêtements de golf"
+        ],
+        "value": {
+          "sum": 366.94000000000005,
+          "count": 16,
+          "min": 9.99,
+          "max": 39.99,
+          "sumsqr": 10054.0606,
+          "moyenne": 22.93
+        }
+      },
+      {
+        "key": [
+          "Vêtements de gym bébés garçons"
+        ],
+        "value": {
+          "sum": 56,
+          "count": 7,
+          "min": 2,
+          "max": 18,
+          "sumsqr": 650,
+          "moyenne": 8.0
+        }
+      },
+      {
+        "key": [
+          "Vêtements de padel"
+        ],
+        "value": {
+          "sum": 489.83000000000004,
+          "count": 28,
+          "min": 7,
+          "max": 29.99,
+          "sumsqr": 9246.201700000001,
+          "moyenne": 17.49
+        }
+      },
+      {
+        "key": [
+          "Vêtements de pilates femmes"
+        ],
+        "value": {
+          "sum": 502.85,
+          "count": 27,
+          "min": 5,
+          "max": 44.99,
+          "sumsqr": 12428.081500000002,
+          "moyenne": 18.62
+        }
+      },
+      {
+        "key": [
+          "Vêtements de plage pour enfants"
+        ],
+        "value": {
+          "sum": 467.81000000000006,
+          "count": 31,
+          "min": 3,
+          "max": 34.99,
+          "sumsqr": 9457.6619,
+          "moyenne": 15.09
+        }
+      },
+      {
+        "key": [
+          "Vêtements de planche à neige enfants"
+        ],
+        "value": {
+          "sum": 804.7900000000001,
+          "count": 23,
+          "min": 7.99,
+          "max": 99.99,
+          "sumsqr": 44960.5021,
+          "moyenne": 34.99
+        }
+      },
+      {
+        "key": [
+          "Vêtements de pluie pour enfants"
+        ],
+        "value": {
+          "sum": 226.90999999999997,
+          "count": 9,
+          "min": 11.99,
+          "max": 39.99,
+          "sumsqr": 6314.4609,
+          "moyenne": 25.21
+        }
+      },
+      {
+        "key": [
+          "Vêtements de ski"
+        ],
+        "value": {
+          "sum": 973.7000000000003,
+          "count": 31,
+          "min": 4.49,
+          "max": 159.99,
+          "sumsqr": 64703.123,
+          "moyenne": 31.41
+        }
+      },
+      {
+        "key": [
+          "Vêtements de ski de randonnée hommes"
+        ],
+        "value": {
+          "sum": 224.96999999999997,
+          "count": 3,
+          "min": 54.99,
+          "max": 89.99,
+          "sumsqr": 17520.5003,
+          "moyenne": 74.99
+        }
+      },
+      {
+        "key": [
+          "Vêtements de tennis"
+        ],
+        "value": {
+          "sum": 476.81000000000006,
+          "count": 27,
+          "min": 7,
+          "max": 29.99,
+          "sumsqr": 9164.3619,
+          "moyenne": 17.66
+        }
+      },
+      {
+        "key": [
+          "Vêtements de tennis femmes"
+        ],
+        "value": {
+          "sum": 228.91999999999996,
+          "count": 12,
+          "min": 11.99,
+          "max": 29.99,
+          "sumsqr": 4667.8607999999995,
+          "moyenne": 19.08
+        }
+      },
+      {
+        "key": [
+          "Vêtements de tennis hommes"
+        ],
+        "value": {
+          "sum": 162.93999999999997,
+          "count": 9,
+          "min": 9.99,
+          "max": 25,
+          "sumsqr": 3207.0606,
+          "moyenne": 18.1
+        }
+      },
+      {
+        "key": [
+          "Vêtements de vélo"
+        ],
+        "value": {
+          "sum": 1810.6900000000003,
+          "count": 35,
+          "min": 6.99,
+          "max": 149.99,
+          "sumsqr": 145265.48309999998,
+          "moyenne": 51.73
+        }
+      },
+      {
+        "key": [
+          "Vêtements pour bébés"
+        ],
+        "value": {
+          "sum": 956.7600000000001,
+          "count": 28,
+          "min": 6,
+          "max": 99.99,
+          "sumsqr": 53422.7424,
+          "moyenne": 34.17
+        }
+      },
+      {
+        "key": [
+          "Vêtements pour femmes"
+        ],
+        "value": {
+          "sum": 1082.6800000000003,
+          "count": 34,
+          "min": 8.99,
+          "max": 139.99,
+          "sumsqr": 55466.2032,
+          "moyenne": 31.84
+        }
+      },
+      {
+        "key": [
+          "Vie en van"
+        ],
+        "value": {
+          "sum": 3346.859999999999,
+          "count": 38,
+          "min": 2.99,
+          "max": 1550,
+          "sumsqr": 2561780.5993999997,
+          "moyenne": 88.08
+        }
+      },
+      {
+        "key": [
+          "Volants de badminton extérieur"
+        ],
+        "value": {
+          "sum": 61.94,
+          "count": 6,
+          "min": 4.99,
+          "max": 19.99,
+          "sumsqr": 774.7606000000001,
+          "moyenne": 10.32
+        }
+      },
+      {
+        "key": [
+          "Voyage, transport et entreposage de vélo"
+        ],
+        "value": {
+          "sum": 1331.8400000000001,
+          "count": 16,
+          "min": 7.99,
+          "max": 429.99,
+          "sumsqr": 265593.36159999995,
+          "moyenne": 83.24
+        }
+      }
+    ]
+  }
+}

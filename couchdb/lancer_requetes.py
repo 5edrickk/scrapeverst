@@ -19,8 +19,8 @@ from pathlib import Path
 from importer import BASE_DEFAUT, connexion
 
 # Paramètres à ajuster quand les vraies données seront là.
-Q1_CATEGORIE = "Randonnée"
-Q1_PRIX_MAX = 50.0
+Q1_CATEGORIE = "Polaires de randonnée"
+Q1_PRIX_MAX = 30.0
 Q1_NOTE_MIN = 4.5
 Q2_LIMITE = 10
 

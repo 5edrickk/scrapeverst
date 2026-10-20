@@ -1,0 +1,210 @@
+{
+  "requete": {
+    "selector": {
+      "categorie": "Polaires de randonnée",
+      "prix.actuel": {
+        "$lt": 30.0
+      },
+      "evaluation.note": {
+        "$gte": 4.5
+      }
+    },
+    "fields": [
+      "_id",
+      "nom",
+      "marque",
+      "prix.actuel",
+      "evaluation"
+    ],
+    "use_index": [
+      "idx-q1-filtre",
+      "categorie-prix-note"
+    ],
+    "limit": 200
+  },
+  "resultat": {
+    "docs": [
+      {
+        "_id": "decathlon-307653",
+        "nom": "Chandail de randonnée en polaire à demi-zip enfant, MH 100 Âge 2-6 ans",
+        "marque": "QUECHUA",
+        "prix": {
+          "actuel": 9.99
+        },
+        "evaluation": {
+          "note": 4.9,
+          "nb_avis": 1227
+        }
+      },
+      {
+        "_id": "decathlon-310937",
+        "nom": "Chandail de randonnée en polaire enfant, MH 100",
+        "marque": "QUECHUA",
+        "prix": {
+          "actuel": 9.99
+        },
+        "evaluation": {
+          "note": 4.9,
+          "nb_avis": 1110
+        }
+      },
+      {
+        "_id": "decathlon-312282",
+        "nom": "Chandail de randonnée en polaire femme – MH 100",
+        "marque": "QUECHUA",
+        "prix": {
+          "actuel": 14.99
+        },
+        "evaluation": {
+          "note": 4.7,
+          "nb_avis": 2952
+        }
+      },
+      {
+        "_id": "decathlon-333884",
+        "nom": "Chandail de randonnée en polaire homme, MH 100",
+        "marque": "QUECHUA",
+        "prix": {
+          "actuel": 14.99
+        },
+        "evaluation": {
+          "note": 4.7,
+          "nb_avis": 10054
+        }
+      },
+      {
+        "_id": "decathlon-312360",
+        "nom": "Chandail de randonnée en polaire homme, MH 100",
+        "marque": "QUECHUA",
+        "prix": {
+          "actuel": 14.99
+        },
+        "evaluation": {
+          "note": 4.8,
+          "nb_avis": 21363
+        }
+      },
+      {
+        "_id": "decathlon-359693",
+        "nom": "Veste en polaire zippée enfant, MH 100 Âge 7-15 ans",
+        "marque": "QUECHUA",
+        "prix": {
+          "actuel": 14.99
+        },
+        "evaluation": {
+          "note": 4.9,
+          "nb_avis": 746
+        }
+      },
+      {
+        "_id": "decathlon-341167",
+        "nom": "Chandail de randonnée en polaire à demi-zip homme, MH 500",
+        "marque": "QUECHUA",
+        "prix": {
+          "actuel": 19.99
+        },
+        "evaluation": {
+          "note": 4.7,
+          "nb_avis": 3730
+        }
+      },
+      {
+        "_id": "decathlon-12490",
+        "nom": "Veste de randonnée en polaire femme – MH 120",
+        "marque": "QUECHUA",
+        "prix": {
+          "actuel": 19.99
+        },
+        "evaluation": {
+          "note": 4.8,
+          "nb_avis": 2873
+        }
+      },
+      {
+        "_id": "decathlon-158652",
+        "nom": "Veste de randonnée chaude en polaire enfant, NH 500 Âge 2-6 ans",
+        "marque": "QUECHUA",
+        "prix": {
+          "actuel": 19.99
+        },
+        "evaluation": {
+          "note": 4.9,
+          "nb_avis": 495
+        }
+      },
+      {
+        "_id": "decathlon-374365",
+        "nom": "Veste en polaire de randonnée enfant, MH 500 Âge 7-15 ans",
+        "marque": "QUECHUA",
+        "prix": {
+          "actuel": 21.99
+        },
+        "evaluation": {
+          "note": 4.9,
+          "nb_avis": 70
+        }
+      },
+      {
+        "_id": "decathlon-176453",
+        "nom": "Veste de randonnée en polaire homme – MH 120",
+        "marque": "QUECHUA",
+        "prix": {
+          "actuel": 24.99
+        },
+        "evaluation": {
+          "note": 4.7,
+          "nb_avis": 9787
+        }
+      },
+      {
+        "_id": "decathlon-302556",
+        "nom": "Veste de randonnée en polaire zippée femme, MH 100",
+        "marque": "QUECHUA",
+        "prix": {
+          "actuel": 24.99
+        },
+        "evaluation": {
+          "note": 4.7,
+          "nb_avis": 8089
+        }
+      },
+      {
+        "_id": "decathlon-375752",
+        "nom": "Polaire de randonnée à demi-zip femme, MH 500",
+        "marque": "QUECHUA",
+        "prix": {
+          "actuel": 24.99
+        },
+        "evaluation": {
+          "note": 4.8,
+          "nb_avis": 34
+        }
+      },
+      {
+        "_id": "decathlon-373683",
+        "nom": "Polaire moutonné à demi-zip enfant, NH 500 Âge 7-15 ans",
+        "marque": "QUECHUA",
+        "prix": {
+          "actuel": 24.99
+        },
+        "evaluation": {
+          "note": 5.0,
+          "nb_avis": 38
+        }
+      },
+      {
+        "_id": "decathlon-333511",
+        "nom": "Veste de randonnée en polaire moutonné enfant, NH 500 Âge 2-6 ans",
+        "marque": "QUECHUA",
+        "prix": {
+          "actuel": 29.99
+        },
+        "evaluation": {
+          "note": 4.9,
+          "nb_avis": 676
+        }
+      }
+    ],
+    "bookmark": "g1AAAABueJzLYWBgYMpgSmHgKy5JLCrJTq2MT8lPzkzJBYoLpKQmJ5Zk5OTn6RobG5saGoLUccDU5QBVMIOUiQXk5yRmFqUWK6SkKhQl5qXk5-UdXpnq5mD7t2DxdS5bNwfhmSAwKysLAOgLI-0"
+  }
+}
