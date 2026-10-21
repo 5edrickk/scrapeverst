@@ -142,6 +142,9 @@ Justification :
 - **Types réels** (nombres décimaux, entiers, `null`) : permettent les comparaisons (`$lt`, `$gte`), le tri et les statistiques (`_stats`) directement dans CouchDB.
 - **`date_extraction`** : les prix changent souvent ; la date indique à quel moment la donnée était vraie.
 
+### Validation du modèle
+La relecture de `donnees.json` et le contrôle manuel de 12 produits confirment que chaque document a un `_id` stable fondé sur le modèle, un prix numérique et une URL source. Les notes et les nombres d'avis restent des nombres, tandis que les produits sans avis conservent `evaluation: null` plutôt qu'une note ou un nombre d'avis à zéro. Cette distinction évite de fausser les filtres et les statistiques CouchDB.
+
 ## 5. Import dans CouchDB et vérifications
 Script : `couchdb/importer.py`. Méthode :
 1. lecture de l'URL et des identifiants dans `.env` (jamais écrits dans le code) ;
