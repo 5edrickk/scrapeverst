@@ -4,7 +4,7 @@
 
 | Nom                        | Matricule |
 | -------------------------- | --------- |
-| Abdoulaye Dembélé          | 202452396 | 45 % 
+| Abdoulaye Dembélé          | 202452396 |
 | Sedrick Zahn Tsoucas       | 206338456 |
 | Catherine Guiléne Ngo Ebga | 206343124 |
 
