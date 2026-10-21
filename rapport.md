@@ -273,9 +273,9 @@ Interprétation : le vélo (surtout le triathlon) et le ski sont de loin les ray
 
 | Membre | Tâches | Pourcentage |
 |---|---|---|
-| Abdoulaye Dembélé | Mise en place du dépôt local et de l'environnement (`.venv`, dépendances, Docker, conteneur CouchDB) ; lancement et supervision de la collecte (test sur 20 pages produit, constat du blocage HTTP 429, passage aux pages de catégories à 5 s, suivi des 400 requêtes, décision de s'arrêter à 2580 modèles bruts, soit 2578 après nettoyage) ; supervision des prompts Claude Code pour le nettoyage, l'import et les requêtes ; relecture des résultats ; coordination de l'équipe. | 33 ⅓ % |
-| Sedrick | Initialisation du dépôt et contribution initiale au projet. | 33 ⅓ % |
-| Catherine Guiléne Ngo Ebga | Relecture et validation de la chaîne de nettoyage à partir des données brutes (6 009 lignes vers 2 578 modèles) ; contrôle manuel de 12 documents JSON avec leurs pages Decathlon ; validation du modèle de documents (identifiant, prix numérique, URL source et gestion des valeurs `null`) ; documentation détaillée des résultats de validation, des écarts de prix et d'avis ainsi que des limites observées dans le rapport ; intégration de ses informations dans le rapport. | 33 ⅓ % |
+| Abdoulaye Dembélé | Mise en place du dépôt local et de l'environnement (`.venv`, dépendances, Docker, conteneur CouchDB) ; lancement et supervision de la collecte (test sur 20 pages produit, constat du blocage HTTP 429, passage aux pages de catégories à 5 s, suivi des 400 requêtes, décision de s'arrêter à 2580 modèles bruts, soit 2578 après nettoyage) ; supervision des prompts Claude Code pour le nettoyage, l'import et les requêtes ; relecture des résultats ; coordination de l'équipe. | 40 % |
+| Sedrick | Initialisation du dépôt et contribution initiale au projet. | 30 % |
+| Catherine Guiléne Ngo Ebga | Relecture et validation de la chaîne de nettoyage à partir des données brutes (6 009 lignes vers 2 578 modèles) ; contrôle manuel de 12 documents JSON avec leurs pages Decathlon ; validation du modèle de documents (identifiant, prix numérique, URL source et gestion des valeurs `null`) ; documentation détaillée des résultats de validation, des écarts de prix et d'avis ainsi que des limites observées dans le rapport ; intégration de ses informations dans le rapport. | 30 % |
 
 **Total : 100 %**
 
