@@ -13,3 +13,7 @@ __pycache__/
 
 # Archive de remise (générée par creer_zip.py)
 remise.zip
+
+# Énoncé et plan d'équipe : documents locaux, jamais commités
+docs/
+docs-perso/
