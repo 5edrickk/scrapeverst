@@ -166,11 +166,11 @@ La base peut être recréée entièrement à partir du JSON, sans refaire le scr
 
 ![Base decathlon dans Fauxton](images/fauxton_base.png)
 
-*La base `decathlon` dans Fauxton (http://localhost:5984/_utils) : 2578 documents de produits, soit 2581 documents au total avec les 3 design documents des index et de la vue.*
+*La base `decathlon` dans Fauxton (http://localhost:5984/_utils) : 2578 documents de produits, soit 2581 documents au total avec les 3 design documents des index et de la vue. La base `decathlon_test` (31 documents) contient l'échantillon fictif utilisé pour les tests.*
 
 ![Un document dans Fauxton](images/fauxton_document.png)
 
-*Un document de produit ouvert dans Fauxton.*
+*Le document `decathlon-343975` (premier exemple de la section 4) ouvert dans Fauxton : prix et évaluation sont stockés comme des nombres.*
 
 ## 6. Requêtes
 Index et vue versionnés : `couchdb/index_q1_filtre.json`, `couchdb/index_q2_avis.json`, `couchdb/design_stats.json`. Exécution : `python couchdb/lancer_requetes.py --base decathlon`. Résultats complets : `couchdb/resultats/`.
