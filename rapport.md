@@ -64,6 +64,26 @@ Autres règles :
 - **prix différents selon la variante (181 modèles)** : on garde le prix de la première ligne vue et chaque cas est listé dans le rapport. Exemple : le maillot dermoprotecteur de surf OLAIAN (`decathlon-326429`) est à 4,00 $ (ancien prix 12,00 $) dans une couleur en liquidation, mais à 11,99 $ dans les autres. Le premier prix vu (4,00 $) est conservé. Ces écarts viennent presque tous de couleurs en liquidation ; le prix stocké est donc parfois celui de la couleur la moins chère et non celui du modèle « normal ». Nous avons préféré cette règle simple et documentée à une moyenne qui ne correspondrait à aucun prix réel ;
 - avertissement et code de sortie non nul si moins de 2500 modèles (ici : 2578, OK).
 
+### Contrôle manuel des données
+Le 20 octobre 2026, nous avons comparé 12 documents de `donnees.json` avec leur page source Decathlon. Les 11 notes disponibles concordent avec celles du JSON et 9 prix sont inchangés; les écarts relevés concernent surtout des nombres d'avis qui ont évolué depuis l'extraction. Les prix des pages de produit peuvent aussi changer entre la collecte et la vérification. La page produit n'affiche pas systématiquement son fil d'Ariane complet : la catégorie a donc été vérifiée lorsqu'elle était visible ou par cohérence avec le produit.
+
+| `_id` | Prix JSON → page | Note JSON → page | Avis JSON → page | Catégorie / observation |
+|---|---:|---:|---:|---|
+| `decathlon-X8777830` | 4,10 $ → 4,10 $ | 4,7 → 4,7 | 7 → 3 | produit de nutrition; avis mis à jour |
+| `decathlon-331143` | 64,00 $ → 64,00 $ | 4,8 → 4,8 | 521 → 517 | imperméable enfant; avis mis à jour |
+| `decathlon-334254` | 79,99 $ → 79,99 $ | 4,7 → 4,7 | 362 → 363 | pantalon d'escalade; fil d'Ariane non affiché |
+| `decathlon-325924` | 17,99 $ → 17,99 $ | 4,3 → 4,3 | 865 → 859 | accessoire d'hydratation; avis mis à jour |
+| `decathlon-328122` | 24,99 $ → 25,00 $ | 4,8 → 4,8 | 260 → 253 | mobilier de camping; prix et avis mis à jour |
+| `decathlon-342022` | 12,99 $ → 12,99 $ | 4,8 → 4,8 | 1769 → 1749 | maillot dermoprotecteur de surf; avis mis à jour |
+| `decathlon-109005` | 17,99 $ → 18,00 $ | 4,8 → 4,8 | 3134 → 2974 | catégorie devenue plus précise sur le site (bouteilles isothermes de randonnée) |
+| `decathlon-X8621575` | 29,99 $ → 30,00 $ | `null` → sans note | `null` → sans avis | article de baseball; absence d'évaluation conservée correctement |
+| `decathlon-312532` | 40,00 $ → 40,00 $ | 4,7 → 4,7 | 5508 → 5518 | manteau de randonnée; avis mis à jour |
+| `decathlon-343180` | 949,99 $ → 949,99 $ | 4,5 → 4,5 | 104 → 104 | vélo de route; valeurs conformes |
+| `decathlon-353102` | 34,99 $ → 34,99 $ | 4,7 → 4,7 | 2980 → 2970 | éveil aquatique; avis mis à jour |
+| `decathlon-356795` | 13,99 $ → 13,99 $ | 4,7 → 4,7 | 305 → 305 | chaussettes chaudes enfant; valeurs conformes |
+
+Les vérifications confirment que les conversions numériques et les valeurs manquantes sont cohérentes. Les différences d'avis, de prix et de libellé de catégorie observées sur le site sont des évolutions postérieures à l'extraction, pas des transformations appliquées par le script.
+
 ## 4. Structure des documents
 Un document par modèle de produit. Deux documents réels de la base `decathlon` :
 
@@ -255,6 +275,6 @@ Nous avons utilisé un assistant d'IA (Claude, via Claude Code) pour :
 Vérifications effectuées :
 - exécution de toute la chaîne sur l'échantillon fictif dans une base séparée `decathlon_test` (nettoyage, import, vérifications automatiques, trois requêtes), puis contrôle à la main des résultats de Q1 et des comptes de Q3 sur cet échantillon ;
 - sur les vraies données : vérifications automatiques de l'import (section 5), contrôle dans le CSV brut que les prix inhabituels (ex. 4,00 $, 6,00 $) sont de vrais prix de liquidation et non des erreurs de lecture, contrôle que les 2 lignes écartées sont bien des services d'atelier ;
-- <<À COMPLÉTER PAR L'ÉQUIPE : vérifications faites par vous-mêmes — par exemple quelques documents comparés avec le site, relecture du code et du rapport, ajustements demandés à l'IA>>
+- relecture de `nettoyage/nettoyer.py` et exécution complète du nettoyage à partir de `data/raw/listes_raw.csv` : les 6009 lignes brutes donnent 2578 modèles, soit le résultat attendu; comparaison manuelle de 12 documents avec leur page Decathlon (section 3), qui a confirmé les prix et notes et documenté les évolutions normales de prix et d'avis.
 
 Tous les chiffres et extraits de ce rapport proviennent de l'exécution des scripts sur les données collectées (`data/rapport_nettoyage.txt`, `couchdb/resultats/`), pas d'une invention de l'IA.
