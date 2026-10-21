@@ -284,7 +284,7 @@ La vue renvoie 396 catégories. Extrait limité aux **263 catégories d'au moins
 | Hameçons et émerillons                            | 18       | 5,91 $    | 1,00 $   | 34,99 $     |
 | Barres énergétiques                               | 17       | 3,58 $    | 3,10 $   | 4,10 $      |
 
-Interprétation : le vélo (surtout le triathlon) et le ski sont de loin les rayons les plus chers ; la nutrition sportive et les petites pièces de pêche ou de réparation sont les moins chers. Trois précautions :
+Interprétation : le vélo (surtout le triathlon) et le ski sont de loin les rayons les plus chers ; la nutrition sportive et les petites pièces de pêche ou de réparation sont les moins chers. Quatre précautions :
 
 - **Petites catégories** : une moyenne sur 1 à 4 produits n'est pas représentative (par exemple « Tentes de toit » : 1 seul produit à 1550 $). C'est pourquoi l'extrait ne garde que les catégories d'au moins 5 produits.
 - **Catégories de mise en marché** : « Nouveautés pour hommes » (moyenne 661,56 $) mélange des articles à 6,99 $ et un vélo à 7199,99 $ ; « Liquidation golf » ou « Liquidation soccer » regroupent des prix déjà réduits. Ces moyennes décrivent une sélection marketing, pas un type de produit, et une seule valeur extrême les fait grimper. Une médiane serait plus fiable, mais `_stats` ne la calcule pas.
