@@ -5,7 +5,7 @@
 |---|---|
 | Abdoulaye Dembélé | <<À COMPLÉTER PAR L'ÉQUIPE : matricule>> |
 | Sedrick <<À COMPLÉTER PAR L'ÉQUIPE : nom de famille>> | <<À COMPLÉTER PAR L'ÉQUIPE : matricule>> |
-| Catherine Guilene Ngo Ebga | <<À COMPLÉTER PAR L'ÉQUIPE : matricule>> |
+| Catherine Guilene Ngo Ebga | 206343124 |
 
 ## 2. Site choisi et outil de collecte
 - **Site** : Decathlon Canada, version française — https://www.decathlon.ca/fr
