@@ -268,7 +268,6 @@ Interprétation : le vélo (surtout le triathlon) et le ski sont de loin les ray
 |---|---|---|
 | Abdoulaye Dembélé | <<À COMPLÉTER PAR L'ÉQUIPE>> | <<À COMPLÉTER PAR L'ÉQUIPE>> % |
 | Sedrick <<À COMPLÉTER PAR L'ÉQUIPE : nom de famille>> | <<À COMPLÉTER PAR L'ÉQUIPE>> | <<À COMPLÉTER PAR L'ÉQUIPE>> % |
-| Catherine Guilene Ngo Ebga | Nettoyage des données, validation manuelle et modélisation des documents JSON | <<À COMPLÉTER PAR L'ÉQUIPE>> % |
 
 ## 10. Utilisation de l'IA
 Nous avons utilisé un assistant d'IA (Claude, via Claude Code) pour :
