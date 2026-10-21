@@ -270,13 +270,14 @@ Interprétation : le vélo (surtout le triathlon) et le ski sont de loin les ray
 - **Limites rencontrées** : limite de requêtes du site (HTTP 429) sur les pages produits, données moins détaillées sur les pages de catégories, prix différents selon la couleur pour 181 modèles.
 
 ## 9. Contribution de chaque membre
-<<À COMPLÉTER PAR L'ÉQUIPE : pour chaque membre, les tâches réalisées (collecte, nettoyage, CouchDB, requêtes, rapport…) et un pourcentage ; le total doit faire 100 %.>>
 
 | Membre | Tâches | Pourcentage |
 |---|---|---|
-| Abdoulaye Dembélé | Mise en place du dépôt local et de l'environnement (`.venv`, dépendances, Docker, conteneur CouchDB) ; lancement et supervision de la collecte (test sur 20 pages produit, constat du blocage HTTP 429, passage aux pages de catégories à 5 s, suivi des 400 requêtes, décision de s'arrêter à 2580 modèles bruts, soit 2578 après nettoyage) ; supervision des prompts Claude Code pour le nettoyage, l'import et les requêtes ; relecture des résultats ; coordination de l'équipe | <<À COMPLÉTER PAR L'ÉQUIPE>> % |
-| Sedrick <<À COMPLÉTER PAR L'ÉQUIPE : nom de famille>> | <<À COMPLÉTER PAR L'ÉQUIPE>> | <<À COMPLÉTER PAR L'ÉQUIPE>> % |
-| Catherine Guiléne Ngo Ebga |  |  |
+| Abdoulaye Dembélé | Mise en place du dépôt local et de l'environnement (`.venv`, dépendances, Docker, conteneur CouchDB) ; lancement et supervision de la collecte (test sur 20 pages produit, constat du blocage HTTP 429, passage aux pages de catégories à 5 s, suivi des 400 requêtes, décision de s'arrêter à 2580 modèles bruts, soit 2578 après nettoyage) ; supervision des prompts Claude Code pour le nettoyage, l'import et les requêtes ; relecture des résultats ; coordination de l'équipe. | 65 % |
+| Sedrick | Initialisation du dépôt et contribution initiale au projet. | 10 % |
+| Catherine Guiléne Ngo Ebga | Relecture et validation de la chaîne de nettoyage à partir des données brutes (6 009 lignes vers 2 578 modèles) ; contrôle manuel de 12 documents JSON avec leurs pages Decathlon ; validation du modèle de documents (identifiant, prix numérique, URL source et gestion des valeurs `null`) ; documentation détaillée des résultats de validation, des écarts de prix et d'avis ainsi que des limites observées dans le rapport ; intégration de ses informations dans le rapport. | 25 % |
+
+**Total : 100 %**
 
 ## 10. Utilisation de l'IA
 Nous avons utilisé un assistant d'IA (Claude, via Claude Code) pour :
