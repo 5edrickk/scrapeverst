@@ -18,7 +18,7 @@ RACINE = Path(__file__).resolve().parent
 ZIP = RACINE / "remise.zip"
 
 FICHIERS = [
-    "rapport.md", "README.md", "requirements.txt", ".env.example",
+    "rapport.md", "README.md", "requirements.txt", ".env.example", "docker-compose.yml",
     "data/urls_echantillon.csv", "data/donnees.json", "data/rapport_nettoyage.txt",
 ]
 GLOBS = ["data/raw/*.csv"]
