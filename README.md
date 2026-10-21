@@ -8,11 +8,11 @@ Cours : Exploration de nouvelles technologies — Cégep de Sherbrooke.
 
 ## Équipe
 
-| Membre |
-|---|
-| <<À COMPLÉTER PAR L'ÉQUIPE : nom complet du membre 1>> |
-| <<À COMPLÉTER PAR L'ÉQUIPE : nom complet du membre 2>> |
-| <<À COMPLÉTER PAR L'ÉQUIPE : nom complet du membre 3>> |
+| Membre | Matricule |
+|---|---|
+| Abdoulaye Dembélé | 202452396 |
+| Sedrick <<À COMPLÉTER PAR L'ÉQUIPE : nom de famille>> | <<À COMPLÉTER PAR L'ÉQUIPE : matricule>> |
+| Catherine Guiléne Ngo Ebga | 206343124 |
 
 Dépôt GitHub : https://github.com/5edrickk/scrapeverst
 
@@ -26,6 +26,7 @@ scrapeverst/
 ├── .env.example                  modèle du fichier .env (aucun mot de passe)
 ├── .gitignore                    exclut .venv/, .env, __pycache__/, remise.zip
 ├── creer_zip.py                  construit remise.zip et vérifie qu'aucun mot de passe n'y figure
+├── images/                       captures d'écran de Fauxton utilisées dans rapport.md
 ├── scraper/                      collecte (à ne pas relancer sans raison, voir plus bas)
 │   ├── commun.py                 client HTTP « poli » partagé (délai, User-Agent, arrêt sur 403/429)
 │   ├── collecter_listes.py       pages de catégories -> data/raw/listes_raw.csv (méthode retenue)
@@ -223,7 +224,9 @@ Règles communes : une seule requête à la fois, `User-Agent` identifiant le pr
 
 Nous avons utilisé Claude et Claude Code pour écrire et tester les scripts de collecte, de nettoyage, d'import et de requêtes, ainsi qu'une première version du rapport et de ce README. Les résultats ont été vérifiés : tests sur un échantillon fictif dans une base séparée, vérifications automatiques de l'import, relecture du code et comparaison de valeurs avec le site. Le détail est dans la section « Utilisation de l'IA » de `rapport.md`.
 
-<<À COMPLÉTER PAR L'ÉQUIPE : vérifications faites par vous-mêmes (ex. produits comparés avec le site, relecture du code, corrections demandées à l'IA)>>
+Vérifications faites par l'équipe :
+- **Abdoulaye Dembélé** : lancement et suivi du scraper ; validation du test sur 20 pages produit et des taux de champs vides ; arrêt de la collecte (après le HTTP 429 sur les pages produit, puis à 400 requêtes et 2580 modèles bruts sur les pages de catégories) ; vérification que CouchDB répond et que la base `decathlon` est bien importée.
+- **Catherine Guiléne Ngo Ebga** : relecture de `nettoyage/nettoyer.py` et exécution complète du nettoyage (6009 lignes brutes → 2578 modèles) ; comparaison manuelle de 12 documents avec leur page Decathlon, qui a confirmé les prix et les notes.
 
 ## Dépannage
 

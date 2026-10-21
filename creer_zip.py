@@ -1,7 +1,8 @@
 """Construit remise.zip (livrables du Projet 2) et vérifie qu'aucun mot de passe n'y figure.
 
-Exclus : .env, .venv, __pycache__, .git, data/raw/erreurs.csv, data/raw/crawl_etat.json.
+Exclus : .env, .venv, __pycache__, .git, data/raw/erreurs.csv, data/raw/crawl_etat.json, .gitkeep.
 Code de sortie 1 (et ZIP supprimé) si un mot de passe est trouvé.
+AVERTISSEMENT (sans bloquer) si une image référencée dans rapport.md ou README.md est absente.
 
 Exemple :
     python creer_zip.py
@@ -21,8 +22,10 @@ FICHIERS = [
     "data/urls_echantillon.csv", "data/donnees.json", "data/rapport_nettoyage.txt",
 ]
 GLOBS = ["data/raw/*.csv"]
-DOSSIERS = ["scraper", "nettoyage", "couchdb"]
-EXCLUS_NOMS = {".env", "erreurs.csv", "crawl_etat.json"}
+DOSSIERS = ["scraper", "nettoyage", "couchdb", "images"]
+EXCLUS_NOMS = {".env", "erreurs.csv", "crawl_etat.json", ".gitkeep"}
+DOCUMENTS_AVEC_IMAGES = ["rapport.md", "README.md"]
+MOTIF_IMAGE = re.compile(r"!\[[^\]]*\]\(([^)\s]+)\)")
 EXCLUS_DOSSIERS = {".venv", "__pycache__", ".git"}
 
 MOTIFS_SECRETS = [
@@ -47,6 +50,17 @@ def lister_fichiers():
             sys.exit(f"Fichier manquant : {chemin.relative_to(RACINE)}")
         retenus.append(chemin)
     return retenus
+
+
+def images_manquantes():
+    """Images locales référencées par ![...](chemin) dans les documents, mais absentes du disque."""
+    manquantes = []
+    for document in DOCUMENTS_AVEC_IMAGES:
+        texte = (RACINE / document).read_text(encoding="utf-8")
+        for chemin in MOTIF_IMAGE.findall(texte):
+            if "://" not in chemin and not (RACINE / chemin).is_file():
+                manquantes.append(f"{document} -> {chemin}")
+    return manquantes
 
 
 def motifs_secrets():
@@ -96,6 +110,12 @@ def main():
         print("remise.zip supprimé.")
         sys.exit(1)
     print("\nOK : aucun mot de passe trouvé (« User123 », « COUCHDB_PASSWORD=<valeur> », mot de passe du .env).")
+
+    manquantes = images_manquantes()
+    if manquantes:
+        print("\nAVERTISSEMENT : images référencées mais absentes (le ZIP est quand même créé) :")
+        for endroit in manquantes:
+            print(f"  {endroit}")
 
 
 if __name__ == "__main__":

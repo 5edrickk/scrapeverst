@@ -3,9 +3,9 @@
 ## 1. Membres de l'équipe
 | Nom | Matricule |
 |---|---|
-| Abdoulaye Dembélé | <<À COMPLÉTER PAR L'ÉQUIPE : matricule>> |
+| Abdoulaye Dembélé | 202452396 |
 | Sedrick <<À COMPLÉTER PAR L'ÉQUIPE : nom de famille>> | <<À COMPLÉTER PAR L'ÉQUIPE : matricule>> |
-| Catherine Guilene Ngo Ebga | 206343124 |
+| Catherine Guiléne Ngo Ebga | 206343124 |
 
 ## 2. Site choisi et outil de collecte
 - **Site** : Decathlon Canada, version française — https://www.decathlon.ca/fr
@@ -36,7 +36,7 @@ Script : `nettoyage/nettoyer.py` (le CSV brut `data/raw/listes_raw.csv` est lu, 
 | Modèles dont les variantes ont des prix différents | 181 (465 lignes à un autre prix) |
 | Marques distinctes | 68 |
 
-Les 2 lignes écartées sont des services d'atelier, pas des produits : « WORKSHOP CHANGEMENT DU CABLE MECANIQUE INFERIEUR » et « WORKSHOP CHANGEMENT DE COURROIE DU VELO MAGNETIQUE ». Les identifiants qui commencent par X **n'ont pas** été filtrés : 112 modèles en X sont de vrais produits (barres XACT NUTRITION, raquette de pickleball…).
+Les 2 lignes écartées sont des services d'atelier, pas des produits : « WORKSHOP CHANGEMENT DU CABLE MECANIQUE INFERIEUR » et « WORKSHOP CHANGEMENT DE COURROIE DU VELO MAGNETIQUE ». Les identifiants qui commencent par X **n'ont pas** été filtrés : sur les 112 modèles en X, 72 sont de vrais produits (barres XACT NUTRITION, articles de baseball RAWLINGS, raquettes à neige…). Les 40 autres sont des **services d'atelier** de marque WORKSHOP (marquage de patins, fartage, réparation de vélos stationnaires ou de planches de SUP), qui ont une marque et une image et n'ont donc pas été écartés par la règle ci-dessus. Ils sont restés dans `donnees.json` : c'est une limite connue du nettoyage (un filtre sur la marque WORKSHOP les retirerait, mais le 41ᵉ document WORKSHOP, `decathlon-200354`, est un vrai feu arrière de vélo).
 
 Valeurs manquantes (`null`) sur les 2578 documents finaux :
 | Champ | Manquants | % | Explication |
@@ -164,7 +164,13 @@ Script : `couchdb/importer.py`. Méthode :
 
 La base peut être recréée entièrement à partir du JSON, sans refaire le scraping (voir README, « Reproduire le travail »).
 
-<<À COMPLÉTER PAR L'ÉQUIPE : capture d'écran de Fauxton (http://localhost:5984/_utils) montrant la base `decathlon` avec ses 2578 documents (2581 avec les 3 design documents des index et de la vue)>>
+![Base decathlon dans Fauxton](images/fauxton_base.png)
+
+*La base `decathlon` dans Fauxton (http://localhost:5984/_utils) : 2578 documents de produits, soit 2581 documents au total avec les 3 design documents des index et de la vue.*
+
+![Un document dans Fauxton](images/fauxton_document.png)
+
+*Un document de produit ouvert dans Fauxton.*
 
 ## 6. Requêtes
 Index et vue versionnés : `couchdb/index_q1_filtre.json`, `couchdb/index_q2_avis.json`, `couchdb/design_stats.json`. Exécution : `python couchdb/lancer_requetes.py --base decathlon`. Résultats complets : `couchdb/resultats/`.
@@ -242,6 +248,7 @@ La vue renvoie 396 catégories. Extrait limité aux **263 catégories d'au moins
 | Bottes de ski | 10 | 331,99 $ | 109,99 $ | 649,99 $ |
 | … | | | | |
 | Nutrition sportive | 29 | 7,27 $ | 2,50 $ | 22,99 $ |
+| Entretenir et réparer ses chaussures de randonnée | 5 | 6,99 $ | 4,99 $ | 9,99 $ |
 | Nutrition et hydratation course à pied | 23 | 6,02 $ | 2,50 $ | 39,99 $ |
 | Hameçons et émerillons | 18 | 5,91 $ | 1,00 $ | 34,99 $ |
 | Barres énergétiques | 17 | 3,58 $ | 3,10 $ | 4,10 $ |
@@ -250,6 +257,7 @@ Interprétation : le vélo (surtout le triathlon) et le ski sont de loin les ray
 - **Petites catégories** : une moyenne sur 1 à 4 produits n'est pas représentative (par exemple « Tentes de toit » : 1 seul produit à 1550 $). C'est pourquoi l'extrait ne garde que les catégories d'au moins 5 produits.
 - **Catégories de mise en marché** : « Nouveautés pour hommes » (moyenne 661,56 $) mélange des articles à 6,99 $ et un vélo à 7199,99 $ ; « Liquidation golf » ou « Liquidation soccer » regroupent des prix déjà réduits. Ces moyennes décrivent une sélection marketing, pas un type de produit, et une seule valeur extrême les fait grimper. Une médiane serait plus fiable, mais `_stats` ne la calcule pas.
 - **Un produit compte dans chacune de ses catégories** : la somme des comptes de la vue est de 4359 pour 2578 documents, car 1032 produits sont dans plusieurs catégories. Les catégories ne sont donc pas disjointes et on ne peut pas additionner leurs effectifs.
+- **Services d'atelier** : les 40 services WORKSHOP restés dans les données (section 3) sont comptés dans 6 catégories de services (par exemple « Entretien de lames de patins à glace », 20 services) ; les moyennes de ces catégories décrivent des prix de services, pas de produits.
 
 ## 7. Dépôt et base
 - Lien GitHub : https://github.com/5edrickk/scrapeverst
@@ -266,9 +274,9 @@ Interprétation : le vélo (surtout le triathlon) et le ski sont de loin les ray
 
 | Membre | Tâches | Pourcentage |
 |---|---|---|
-| Abdoulaye Dembélé | <<À COMPLÉTER PAR L'ÉQUIPE>> | <<À COMPLÉTER PAR L'ÉQUIPE>> % |
+| Abdoulaye Dembélé | Mise en place du dépôt local et de l'environnement (`.venv`, dépendances, Docker, conteneur CouchDB) ; lancement et supervision de la collecte (test sur 20 pages produit, constat du blocage HTTP 429, passage aux pages de catégories à 5 s, suivi des 400 requêtes, décision de s'arrêter à 2580 modèles bruts, soit 2578 après nettoyage) ; supervision des prompts Claude Code pour le nettoyage, l'import et les requêtes ; relecture des résultats ; coordination de l'équipe | <<À COMPLÉTER PAR L'ÉQUIPE>> % |
 | Sedrick <<À COMPLÉTER PAR L'ÉQUIPE : nom de famille>> | <<À COMPLÉTER PAR L'ÉQUIPE>> | <<À COMPLÉTER PAR L'ÉQUIPE>> % |
-| Catherine Guilene Ngo Ebga |  |  |
+| Catherine Guiléne Ngo Ebga |  |  |
 
 ## 10. Utilisation de l'IA
 Nous avons utilisé un assistant d'IA (Claude, via Claude Code) pour :
@@ -280,6 +288,7 @@ Nous avons utilisé un assistant d'IA (Claude, via Claude Code) pour :
 Vérifications effectuées :
 - exécution de toute la chaîne sur l'échantillon fictif dans une base séparée `decathlon_test` (nettoyage, import, vérifications automatiques, trois requêtes), puis contrôle à la main des résultats de Q1 et des comptes de Q3 sur cet échantillon ;
 - sur les vraies données : vérifications automatiques de l'import (section 5), contrôle dans le CSV brut que les prix inhabituels (ex. 4,00 $, 6,00 $) sont de vrais prix de liquidation et non des erreurs de lecture, contrôle que les 2 lignes écartées sont bien des services d'atelier ;
+- par Abdoulaye Dembélé : lancement et suivi du scraper ; validation du test sur 20 pages produit et des taux de champs vides ; arrêt de la collecte (après le HTTP 429 sur les pages produit, puis à 400 requêtes et 2580 modèles bruts sur les pages de catégories) ; vérification que CouchDB répond et que la base `decathlon` est bien importée ;
 - relecture de `nettoyage/nettoyer.py` et exécution complète du nettoyage à partir de `data/raw/listes_raw.csv` : les 6009 lignes brutes donnent 2578 modèles, soit le résultat attendu; comparaison manuelle de 12 documents avec leur page Decathlon (section 3), qui a confirmé les prix et notes et documenté les évolutions normales de prix et d'avis.
 
 Tous les chiffres et extraits de ce rapport proviennent de l'exécution des scripts sur les données collectées (`data/rapport_nettoyage.txt`, `couchdb/resultats/`), pas d'une invention de l'IA.
