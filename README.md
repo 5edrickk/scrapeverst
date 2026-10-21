@@ -99,6 +99,8 @@ Le fichier `.env` est ignoré par Git (`.gitignore`) : il n'est **jamais commit�
 
 ## Démarrer CouchDB avec Docker
 
+**Option simple** : `docker compose up -d` à la racine (lit `COUCHDB_USER` et `COUCHDB_PASSWORD` dans `.env`, données conservées dans un volume). Sinon, la méthode manuelle ci-dessous.
+
 **Première fois** : créer le conteneur. Le mot de passe est saisi au clavier et placé dans une variable d'environnement de la session PowerShell ; l'option `-e COUCHDB_PASSWORD` (sans valeur) demande à Docker de le lire dans cette variable. Il n'apparaît donc ni dans la commande ni dans l'historique.
 
 ```powershell
