@@ -244,6 +244,7 @@ Nous avons utilisé Claude et Claude Code pour écrire et tester les scripts de 
 Vérifications faites par l'équipe :
 
 - **Abdoulaye Dembélé** : lancement et suivi du scraper ; validation du test sur 20 pages produit et des taux de champs vides ; arrêt de la collecte (après le HTTP 429 sur les pages produit, puis à 400 requêtes et 2580 modèles bruts sur les pages de catégories) ; vérification que CouchDB répond et que la base `decathlon` est bien importée.
+- **Sedrick Zahn Tsoucas** : test de reproduction avec Claude Code en suivant ce README, dans une base séparée : import de `data/donnees.json` (2578 documents, 0 refusé, vérifications à OK), puis `lancer_requetes.py`, qui redonne Q1, Q2 et Q3 à l'identique (à l'arrondi près pour Q3) ; `_explain` confirme que Q1 et Q2 utilisent leurs index.
 - **Catherine Guiléne Ngo Ebga** : relecture de `nettoyage/nettoyer.py` et exécution complète du nettoyage (6009 lignes brutes → 2578 modèles) ; comparaison manuelle de 12 documents avec leur page Decathlon, qui a confirmé les prix et les notes.
 
 ## Dépannage
