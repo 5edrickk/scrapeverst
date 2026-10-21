@@ -5,6 +5,7 @@
 |---|---|
 | Abdoulaye Dembélé | <<À COMPLÉTER PAR L'ÉQUIPE : matricule>> |
 | Sedrick <<À COMPLÉTER PAR L'ÉQUIPE : nom de famille>> | <<À COMPLÉTER PAR L'ÉQUIPE : matricule>> |
+| Catherine Guilene Ngo Ebga | <<À COMPLÉTER PAR L'ÉQUIPE : matricule>> |
 
 ## 2. Site choisi et outil de collecte
 - **Site** : Decathlon Canada, version française — https://www.decathlon.ca/fr
@@ -267,6 +268,7 @@ Interprétation : le vélo (surtout le triathlon) et le ski sont de loin les ray
 |---|---|---|
 | Abdoulaye Dembélé | <<À COMPLÉTER PAR L'ÉQUIPE>> | <<À COMPLÉTER PAR L'ÉQUIPE>> % |
 | Sedrick <<À COMPLÉTER PAR L'ÉQUIPE : nom de famille>> | <<À COMPLÉTER PAR L'ÉQUIPE>> | <<À COMPLÉTER PAR L'ÉQUIPE>> % |
+| Catherine Guilene Ngo Ebga | Nettoyage des données, validation manuelle et modélisation des documents JSON | <<À COMPLÉTER PAR L'ÉQUIPE>> % |
 
 ## 10. Utilisation de l'IA
 Nous avons utilisé un assistant d'IA (Claude, via Claude Code) pour :
