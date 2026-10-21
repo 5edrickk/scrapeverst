@@ -285,6 +285,7 @@ Nous avons utilisé un assistant d'IA (Claude, via Claude Code) pour :
 - générer un échantillon **fictif** (`data/echantillon_listes.csv`) imitant le format brut, pour tester la chaîne sans faire de requêtes au site ;
 - choisir la catégorie et le seuil de Q1 à partir des données réelles ;
 - rédiger la structure et une première version de ce rapport et du README.
+- utiliser Codex pour relire le projet, vérifier le respect des consignes de remise et repérer les erreurs ou éléments manquants avant la soumission.
 
 Vérifications effectuées :
 - exécution de toute la chaîne sur l'échantillon fictif dans une base séparée `decathlon_test` (nettoyage, import, vérifications automatiques, trois requêtes), puis contrôle à la main des résultats de Q1 et des comptes de Q3 sur cet échantillon ;
